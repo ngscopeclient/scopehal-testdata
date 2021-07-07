@@ -1,0 +1,231 @@
+instruments:
+    scope1:
+        id:             1
+        nick:           "hdo9"
+        name:           "HDO9204"
+        vendor:         "LECROY"
+        serial:         "LCRY4403N30190"
+        transport:      "null"
+        args:           ""
+        driver:         "mock"
+        rate:           1
+        depth:          1
+        interleave:     0
+        channels:
+            ch0:
+                id:          2
+                index:       0
+                color:       "#ffff80"
+                nick:        "C1"
+                name:        "C1"
+                type:        analog
+                enabled:     1
+                attenuation: 1.000000
+                bwlimit:     0
+                vrange:      0.240000
+                offset:      0.000000
+                coupling:    dc_50
+            ch1:
+                id:          3
+                index:       1
+                color:       "#ff8080"
+                nick:        "C2"
+                name:        "C2"
+                type:        analog
+                enabled:     1
+                attenuation: 1.000000
+                bwlimit:     0
+                vrange:      0.240000
+                offset:      0.000000
+                coupling:    dc_50
+            ch2:
+                id:          4
+                index:       2
+                color:       "#80ffff"
+                nick:        "C3"
+                name:        "C3"
+                type:        analog
+                enabled:     0
+                attenuation: 1.000000
+                bwlimit:     0
+                vrange:      1.600000
+                offset:      -0.600000
+                coupling:    dc_50
+            ch3:
+                id:          5
+                index:       3
+                color:       "#80ff80"
+                nick:        "C4"
+                name:        "C4"
+                type:        analog
+                enabled:     0
+                attenuation: 10.000000
+                bwlimit:     0
+                vrange:      6.000000
+                offset:      -1.635000
+                coupling:    dc_50
+            ch4:
+                id:          6
+                index:       4
+                color:       ""
+                nick:        "EX"
+                name:        "EX"
+                type:        trigger
+                enabled:     0
+decodes:
+    filter8:
+        id:              8
+        inputs:
+            din:                 7/0
+        parameters:
+            Hysteresis:          0 mV
+            Threshold:           0 mV
+        protocol:        "Threshold"
+        color:           "#3333a0a02c2c"
+        nick:            "Threshold(C1 - C2)"
+        name:            "Threshold(C1 - C2)"
+        vrange:          1.000000
+        offset:          0.000000
+    filter7:
+        id:              7
+        inputs:
+            IN+:                 2/0
+            IN-:                 3/0
+        parameters:
+        protocol:        "Subtract"
+        color:           "#a6a6cecee3e3"
+        nick:            "C1 - C2"
+        name:            "C1 - C2"
+        vrange:          0.480000
+        offset:          0.000000
+    filter10:
+        id:              10
+        inputs:
+            din:                 7/0
+            clk:                 9/0
+        parameters:
+            Bit Rate:            1.25 Gbps
+            Bit Rate Mode:       "Auto"
+            Center Voltage:      0 mV
+            Clock Alignment:     "Center"
+            Clock Edge:          "Both"
+            Mask:                ""
+            Saturation Level:    1 
+            Vertical Range:      250 mV
+            Vertical Scale Mode: "Auto"
+        protocol:        "Eye pattern"
+        color:           "#b2b2dfdf8a8a"
+        nick:            "Eye(C1 - C2, ClockRec(C1 - C2))"
+        name:            "Eye(C1 - C2, ClockRec(C1 - C2))"
+        vrange:          0.480000
+        offset:          -0.000000
+    filter11:
+        id:              11
+        inputs:
+            data:                8/0
+            clk:                 9/0
+        parameters:
+            Display Format:      "Dotted (K28.5 D21.5)"
+        protocol:        "8b/10b (IBM)"
+        color:           "#fbfb9a9a9999"
+        nick:            "8b10b(Threshold(C1 - C2))"
+        name:            "8b10b(Threshold(C1 - C2))"
+        vrange:          1.000000
+        offset:          0.000000
+    filter12:
+        id:              12
+        inputs:
+            data:                11/0
+        parameters:
+            PCAP Output:         ""
+        protocol:        "Ethernet - 1000BaseX"
+        color:           "#a6cee3"
+        nick:            "1000BaseX(8b10b(Threshold(C1 - C2)))"
+        name:            "1000BaseX(8b10b(Threshold(C1 - C2)))"
+        vrange:          1.000000
+        offset:          0.000000
+    filter9:
+        id:              9
+        inputs:
+            IN:                  7/0
+            Gate:                0
+        parameters:
+            Symbol rate:         1.25 GHz
+            Threshold:           0 mV
+        protocol:        "Clock Recovery (PLL)"
+        color:           "#1f1f7878b4b4"
+        nick:            "ClockRec(C1 - C2)"
+        name:            "ClockRec(C1 - C2)"
+        vrange:          1.000000
+        offset:          0.000000
+ui_config:
+    window:
+        width: 1920
+        height: 1018
+    areas:
+        area13:
+            id:          13
+            persistence: 0
+            channel:     7
+            stream:      0
+            overlays:
+                overlay9:
+                    id:      9
+                    stream:  0
+                overlay8:
+                    id:      8
+                    stream:  0
+                overlay11:
+                    id:      11
+                    stream:  0
+                overlay12:
+                    id:      12
+                    stream:  0
+        area14:
+            id:          14
+            persistence: 0
+            channel:     10
+            stream:      0
+    groups: 
+        group15:
+            id:             15
+            name:           "Waveform Group 2"
+            timebaseResolution: fs
+            pixelsPerXUnit: 1.198648e-03
+            xAxisOffset:    -800068
+            cursorConfig:   none
+            xcursor0:       0
+            xcursor1:       0
+            ycursor0:       0.000000
+            ycursor1:       0.000000
+            areas:
+                area14:
+                    id: 14
+        group16:
+            id:             16
+            name:           "Waveform Group 1"
+            timebaseResolution: fs
+            pixelsPerXUnit: 1.217000e-06
+            xAxisOffset:    8814060000
+            cursorConfig:   none
+            xcursor0:       0
+            xcursor1:       0
+            ycursor0:       0.000000
+            ycursor1:       0.000000
+            areas:
+                area13:
+                    id: 13
+    splitters: 
+        split17: 
+            id:     17
+            dir:    v
+            split:  464
+            child0: 16
+            child1: 15
+        split18: 
+            id:     18
+            dir:    h
+            split:  0
+            child0: 17
+            child1: 0
+    top: 18
