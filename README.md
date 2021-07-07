@@ -37,6 +37,17 @@ correctly flags this as a problem.
 * 1-Wire
 * Threshold
 
+## Memory
+
+### DDR1.scopesession
+
+Source: Teledyne LeCroy WaveRunner 8404M-MS
+
+Note: This dataset also contains analog signals for DQS and a single DQ line however DQ eye rendering isn't
+quite fully debugged so that's not included.
+
+* DDR1 Command Bus
+
 ## Networking
 
 ### 10Base-T.scopesession

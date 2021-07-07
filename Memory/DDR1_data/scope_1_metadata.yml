@@ -1,0 +1,119 @@
+waveforms:
+    wfm1:
+        timestamp: 1618018849
+        time_fsec: 924999999999997
+        id:        1
+        channels:
+            ch6s0:
+                format:       sparsev1
+                index:        6
+                stream:       0
+                timescale:    800000
+                trigphase:    -164570992
+            ch7s0:
+                format:       sparsev1
+                index:        7
+                stream:       0
+                timescale:    800000
+                trigphase:    -164570992
+            ch8s0:
+                format:       sparsev1
+                index:        8
+                stream:       0
+                timescale:    800000
+                trigphase:    -164570992
+            ch9s0:
+                format:       sparsev1
+                index:        9
+                stream:       0
+                timescale:    800000
+                trigphase:    -164570992
+            ch10s0:
+                format:       sparsev1
+                index:        10
+                stream:       0
+                timescale:    800000
+                trigphase:    -164570992
+            ch2s0:
+                format:       densev1
+                index:        2
+                stream:       0
+                timescale:    25000
+                trigphase:    3805
+            ch5s0:
+                format:       sparsev1
+                index:        5
+                stream:       0
+                timescale:    800000
+                trigphase:    -164570992
+            ch11s0:
+                format:       sparsev1
+                index:        11
+                stream:       0
+                timescale:    800000
+                trigphase:    -164570992
+            ch1s0:
+                format:       densev1
+                index:        1
+                stream:       0
+                timescale:    25000
+                trigphase:    9846
+    wfm2:
+        timestamp: 1618018849
+        time_fsec: 291368665000000
+        id:        2
+        channels:
+            ch6s0:
+                format:       sparsev1
+                index:        6
+                stream:       0
+                timescale:    800000
+                trigphase:    -164163808
+            ch7s0:
+                format:       sparsev1
+                index:        7
+                stream:       0
+                timescale:    800000
+                trigphase:    -164163808
+            ch8s0:
+                format:       sparsev1
+                index:        8
+                stream:       0
+                timescale:    800000
+                trigphase:    -164163808
+            ch9s0:
+                format:       sparsev1
+                index:        9
+                stream:       0
+                timescale:    800000
+                trigphase:    -164163808
+            ch10s0:
+                format:       sparsev1
+                index:        10
+                stream:       0
+                timescale:    800000
+                trigphase:    -164163808
+            ch2s0:
+                format:       densev1
+                index:        2
+                stream:       0
+                timescale:    25000
+                trigphase:    21409
+            ch5s0:
+                format:       sparsev1
+                index:        5
+                stream:       0
+                timescale:    800000
+                trigphase:    -164163808
+            ch11s0:
+                format:       sparsev1
+                index:        11
+                stream:       0
+                timescale:    800000
+                trigphase:    -164163808
+            ch1s0:
+                format:       densev1
+                index:        1
+                stream:       0
+                timescale:    25000
+                trigphase:    2450
