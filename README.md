@@ -5,6 +5,18 @@ glscopeclient and libscopehal.
 
 Files are listed alphabetically below, along with a list of the features they demonstrate.
 
+## Automotive
+
+### CAN.scopesession
+
+Source: Teledyne LeCroy HDO9204
+
+* CAN
+* Clock Recovery (PLL)
+* Eye Pattern
+* Subtract
+* Threshold
+
 ## Aviation
 
 ### ARINC429.scopesession
