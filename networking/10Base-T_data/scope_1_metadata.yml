@@ -1,0 +1,86 @@
+waveforms:
+    wfm1:
+        timestamp: 1602365963
+        time_fsec: 850596561515000
+        id:        1
+        channels:
+            ch1s0:
+                format:       densev1
+                index:        1
+                stream:       0
+                timescale:    1000000
+                trigphase:    989949
+            ch2s0:
+                format:       densev1
+                index:        2
+                stream:       0
+                timescale:    1000000
+                trigphase:    777949
+    wfm2:
+        timestamp: 1602366981
+        time_fsec: 719877178051000
+        id:        2
+        channels:
+            ch1s0:
+                format:       densev1
+                index:        1
+                stream:       0
+                timescale:    1000000
+                trigphase:    29949
+            ch2s0:
+                format:       densev1
+                index:        2
+                stream:       0
+                timescale:    1000000
+                trigphase:    821949
+    wfm3:
+        timestamp: 1602366982
+        time_fsec: 743879908953000
+        id:        3
+        channels:
+            ch1s0:
+                format:       densev1
+                index:        1
+                stream:       0
+                timescale:    1000000
+                trigphase:    597949
+            ch2s0:
+                format:       densev1
+                index:        2
+                stream:       0
+                timescale:    1000000
+                trigphase:    389949
+    wfm4:
+        timestamp: 1602366983
+        time_fsec: 767907851854000
+        id:        4
+        channels:
+            ch1s0:
+                format:       densev1
+                index:        1
+                stream:       0
+                timescale:    1000000
+                trigphase:    485949
+            ch2s0:
+                format:       densev1
+                index:        2
+                stream:       0
+                timescale:    1000000
+                trigphase:    277949
+    wfm5:
+        timestamp: 1602366984
+        time_fsec: 792016140755000
+        id:        5
+        channels:
+            ch1s0:
+                format:       densev1
+                index:        1
+                stream:       0
+                timescale:    1000000
+                trigphase:    557949
+            ch2s0:
+                format:       densev1
+                index:        2
+                stream:       0
+                timescale:    1000000
+                trigphase:    345949
