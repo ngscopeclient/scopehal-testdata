@@ -249,8 +249,19 @@ instruments:
                 hys:         0.100000
                 enabled:     0
 decodes:
-    filter23:
-        id:              23
+    filter24:
+        id:              24
+        inputs:
+            eth:                 23/0
+        parameters:
+        protocol:        "IPv4"
+        color:           "#a6cee3"
+        nick:            "IPv4(10BaseT(C2 - C3))"
+        name:            "IPv4(10BaseT(C2 - C3))"
+        vrange:          1.000000
+        offset:          0.000000
+    filter25:
+        id:              25
         inputs:
             IN+:                 3/0
             IN-:                 4/0
@@ -261,10 +272,10 @@ decodes:
         name:            "C2 - C3"
         vrange:          8.000000
         offset:          0.000000
-    filter24:
-        id:              24
+    filter23:
+        id:              23
         inputs:
-            din:                 23/0
+            din:                 25/0
         parameters:
             PCAP Output:         ""
         protocol:        "Ethernet - 10baseT"
@@ -278,28 +289,31 @@ ui_config:
         width: 1920
         height: 1018
     areas:
-        area25:
-            id:          25
-            persistence: 0
-            channel:     3
-            stream:      0
         area26:
             id:          26
             persistence: 0
-            channel:     4
-            stream:      0
-        area27:
-            id:          27
-            persistence: 0
-            channel:     23
+            channel:     25
             stream:      0
             overlays:
+                overlay23:
+                    id:      23
+                    stream:  0
                 overlay24:
                     id:      24
                     stream:  0
+        area27:
+            id:          27
+            persistence: 0
+            channel:     3
+            stream:      0
+        area28:
+            id:          28
+            persistence: 0
+            channel:     4
+            stream:      0
     groups: 
-        group28:
-            id:             28
+        group29:
+            id:             29
             name:           "Waveform Group 1"
             timebaseResolution: fs
             pixelsPerXUnit: 4.000000e-09
@@ -310,17 +324,17 @@ ui_config:
             ycursor0:       0.000000
             ycursor1:       0.000000
             areas:
-                area25:
-                    id: 25
                 area27:
                     id: 27
                 area26:
                     id: 26
+                area28:
+                    id: 28
     splitters: 
-        split29: 
-            id:     29
+        split30: 
+            id:     30
             dir:    v
             split:  0
-            child0: 28
+            child0: 29
             child1: 0
-    top: 29
+    top: 30
