@@ -48,6 +48,19 @@ quite fully debugged so that's not included.
 
 * DDR1 Command Bus
 
+## Mobile
+
+### DSI.scopesession
+
+Source: Teledyne LeCroy WaveRunner 8404M-MS
+
+Note: Gated clock eye rendering removed due to bugs still being investigated
+
+* MIPI D-PHY Symbol
+* MIPI DSI Packet
+* MIPI DSI Frame
+* Subtract
+
 ## Networking
 
 ### 10Base-T.scopesession
