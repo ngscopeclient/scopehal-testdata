@@ -5,6 +5,18 @@ glscopeclient and libscopehal.
 
 Files are listed alphabetically below, along with a list of the features they demonstrate.
 
+## Embedded
+
+### 1-Wire.scopesession
+
+Source: CSV import, original instrument unknown
+
+Note: The device this waveform came from has a bug and the initial reset pulse is slightly too short. The decode
+correctly flags this as a problem.
+
+* 1-Wire
+* Threshold
+
 ## Networking
 
 ### 10Base-T.scopesession

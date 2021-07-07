@@ -1,0 +1,12 @@
+waveforms:
+    wfm1:
+        timestamp: 0
+        time_fsec: 0
+        id:        1
+        channels:
+            ch0s0:
+                format:       sparsev1
+                index:        0
+                stream:       0
+                timescale:    1000
+                trigphase:    0

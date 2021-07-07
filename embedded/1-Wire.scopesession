@@ -1,0 +1,92 @@
+instruments:
+    scope1:
+        id:             1
+        nick:           "import"
+        name:           "CSV Import"
+        vendor:         "Generic"
+        serial:         "12345"
+        transport:      "null"
+        args:           ""
+        driver:         "mock"
+        rate:           1
+        depth:          1
+        interleave:     0
+        channels:
+            ch0:
+                id:          2
+                index:       0
+                color:       "#a6cee3"
+                nick:        "CH1"
+                name:        "CH1"
+                type:        analog
+                enabled:     1
+                attenuation: 0.000000
+                bwlimit:     0
+                vrange:      5.507538
+                offset:      -2.753769
+                coupling:    dc_1M
+decodes:
+    filter4:
+        id:              4
+        inputs:
+            data:                3/0
+        parameters:
+        protocol:        "1-Wire"
+        color:           "#1f78b4"
+        nick:            "1Wire(Threshold(CH1))"
+        name:            "1Wire(Threshold(CH1))"
+        vrange:          1.000000
+        offset:          0.000000
+    filter3:
+        id:              3
+        inputs:
+            din:                 2/0
+        parameters:
+            Hysteresis:          0 mV
+            Threshold:           2.5 V
+        protocol:        "Threshold"
+        color:           "#a6a6cecee3e3"
+        nick:            "Threshold(CH1)"
+        name:            "Threshold(CH1)"
+        vrange:          1.000000
+        offset:          0.000000
+ui_config:
+    window:
+        width: 1920
+        height: 1018
+    areas:
+        area5:
+            id:          5
+            persistence: 0
+            channel:     2
+            stream:      0
+            overlays:
+                overlay3:
+                    id:      3
+                    stream:  0
+                overlay4:
+                    id:      4
+                    stream:  0
+    groups: 
+        group6:
+            id:             6
+            name:           "Waveform Group 2"
+            timebaseResolution: fs
+            pixelsPerXUnit: 6.666667e-10
+            xAxisOffset:    -340026085319
+            cursorConfig:   none
+            xcursor0:       0
+            xcursor1:       0
+            ycursor0:       0.000000
+            ycursor1:       0.000000
+            areas:
+                area5:
+                    id: 5
+    splitters: 
+        split7: 
+            id:     7
+            dir:    v
+            split:  0
+            child0: 6
+            child1: 0
+    top: 7
