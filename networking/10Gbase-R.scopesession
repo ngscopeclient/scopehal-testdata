@@ -1,0 +1,264 @@
+instruments:
+    scope1:
+        id:             1
+        nick:           "sda"
+        name:           "SDA816ZI"
+        vendor:         "LECROY"
+        serial:         "LCRY0425N48460"
+        transport:      "null"
+        args:           ""
+        driver:         "mock"
+        rate:           1
+        depth:          1
+        interleave:     0
+        channels:
+            ch0:
+                id:          2
+                index:       0
+                color:       "#ffff00"
+                nick:        "C1"
+                name:        "C1"
+                type:        analog
+                enabled:     0
+                attenuation: 1.000000
+                bwlimit:     0
+                vrange:      0.400000
+                offset:      0.000000
+                coupling:    dc_50
+            ch1:
+                id:          3
+                index:       1
+                color:       "#ff6abc"
+                nick:        "C2"
+                name:        "C2"
+                type:        analog
+                enabled:     0
+                attenuation: 1.000000
+                bwlimit:     0
+                vrange:      0.400000
+                offset:      0.000000
+                coupling:    dc_50
+            ch2:
+                id:          4
+                index:       2
+                color:       "#00ffff"
+                nick:        "C3"
+                name:        "C3"
+                type:        analog
+                enabled:     0
+                attenuation: 1.000000
+                bwlimit:     0
+                vrange:      0.400000
+                offset:      0.000000
+                coupling:    ac_1M
+            ch3:
+                id:          5
+                index:       3
+                color:       "#00c100"
+                nick:        "C4"
+                name:        "C4"
+                type:        analog
+                enabled:     1
+                attenuation: 1.000000
+                bwlimit:     0
+                vrange:      0.262440
+                offset:      0.000000
+                coupling:    dc_50
+            ch4:
+                id:          6
+                index:       4
+                color:       ""
+                nick:        "Ext"
+                name:        "Ext"
+                type:        trigger
+                enabled:     0
+decodes:
+    filter7:
+        id:              7
+        inputs:
+            din:                 5/0
+        parameters:
+            End Fraction:        80 %
+            Start Fraction:      20 %
+        protocol:        "Rise"
+        color:           "#fdfdbfbf6f6f"
+        nick:            "Rise(C4, 20 %, 80 %)"
+        name:            "Rise(C4, 20 %, 80 %)"
+        vrange:          22784.000000
+        offset:          -41088.000000
+    filter10:
+        id:              10
+        inputs:
+            data:                8/0
+            clk:                 9/0
+        parameters:
+        protocol:        "64b/66b"
+        color:           "#3333a0a02c2c"
+        nick:            "64b66b(Threshold(C4))"
+        name:            "64b66b(Threshold(C4))"
+        vrange:          1.000000
+        offset:          0.000000
+    filter11:
+        id:              11
+        inputs:
+            data:                10/0
+        parameters:
+            PCAP Output:         ""
+        protocol:        "Ethernet - 10GBaseR"
+        color:           "#fb9a99"
+        nick:            "10GBaseR(64b66b(Threshold(C4)))"
+        name:            "10GBaseR(64b66b(Threshold(C4)))"
+        vrange:          1.000000
+        offset:          0.000000
+    filter8:
+        id:              8
+        inputs:
+            din:                 5/0
+        parameters:
+            Hysteresis:          0 mV
+            Threshold:           0 mV
+        protocol:        "Threshold"
+        color:           "#b2b2dfdf8a8a"
+        nick:            "Threshold(C4)"
+        name:            "Threshold(C4)"
+        vrange:          1.000000
+        offset:          0.000000
+    filter9:
+        id:              9
+        inputs:
+            IN:                  5/0
+            Gate:                0
+        parameters:
+            Symbol rate:         10.3125 GHz
+            Threshold:           0 mV
+        protocol:        "Clock Recovery (PLL)"
+        color:           "#a6a6cecee3e3"
+        nick:            "ClockRec(C4)"
+        name:            "ClockRec(C4)"
+        vrange:          1.000000
+        offset:          0.000000
+    filter12:
+        id:              12
+        inputs:
+            eth:                 11/0
+        parameters:
+        protocol:        "IPv4"
+        color:           "#e31a1c"
+        nick:            "IPv4(10GBaseR(64b66b(Threshold(C4))))"
+        name:            "IPv4(10GBaseR(64b66b(Threshold(C4))))"
+        vrange:          1.000000
+        offset:          0.000000
+    filter13:
+        id:              13
+        inputs:
+            din:                 5/0
+            clk:                 9/0
+        parameters:
+            Bit Rate:            1.25 Gbps
+            Bit Rate Mode:       "Auto"
+            Center Voltage:      0 mV
+            Clock Alignment:     "Center"
+            Clock Edge:          "Both"
+            Mask:                ""
+            Saturation Level:    1 
+            Vertical Range:      250 mV
+            Vertical Scale Mode: "Auto"
+        protocol:        "Eye pattern"
+        color:           "#1f1f7878b4b4"
+        nick:            "Eye(C4, ClockRec(C4))"
+        name:            "Eye(C4, ClockRec(C4))"
+        vrange:          0.262440
+        offset:          -0.000000
+ui_config:
+    window:
+        width: 1920
+        height: 1018
+    areas:
+        area14:
+            id:          14
+            persistence: 0
+            channel:     13
+            stream:      0
+        area15:
+            id:          15
+            persistence: 0
+            channel:     5
+            stream:      0
+            overlays:
+                overlay9:
+                    id:      9
+                    stream:  0
+                overlay8:
+                    id:      8
+                    stream:  0
+                overlay10:
+                    id:      10
+                    stream:  0
+                overlay11:
+                    id:      11
+                    stream:  0
+                overlay12:
+                    id:      12
+                    stream:  0
+        area16:
+            id:          16
+            persistence: 0
+            channel:     5
+            stream:      0
+    groups: 
+        group17:
+            id:             17
+            name:           "Waveform Group 5"
+            timebaseResolution: fs
+            pixelsPerXUnit: 5.564141e-03
+            xAxisOffset:    -96960
+            cursorConfig:   none
+            xcursor0:       0
+            xcursor1:       0
+            ycursor0:       0.000000
+            ycursor1:       0.000000
+            areas:
+                area14:
+                    id: 14
+        group18:
+            id:             18
+            name:           "Waveform Group 1"
+            timebaseResolution: fs
+            pixelsPerXUnit: 5.000003e-05
+            xAxisOffset:    475748862
+            cursorConfig:   none
+            xcursor0:       0
+            xcursor1:       0
+            ycursor0:       0.000000
+            ycursor1:       0.000000
+            areas:
+                area15:
+                    id: 15
+        group19:
+            id:             19
+            name:           "Waveform Group 4"
+            timebaseResolution: fs
+            pixelsPerXUnit: 3.859203e-04
+            xAxisOffset:    482760800
+            cursorConfig:   none
+            xcursor0:       0
+            xcursor1:       0
+            ycursor0:       0.000000
+            ycursor1:       0.000000
+            areas:
+                area16:
+                    id: 16
+    splitters: 
+        split20: 
+            id:     20
+            dir:    h
+            split:  832
+            child0: 19
+            child1: 17
+        split21: 
+            id:     21
+            dir:    v
+            split:  516
+            child0: 18
+            child1: 20
+    top: 21
