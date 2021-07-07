@@ -5,6 +5,14 @@ glscopeclient and libscopehal.
 
 Files are listed alphabetically below, along with a list of the features they demonstrate.
 
+## Aviation
+
+### ARINC429.scopesession
+
+Source: Agilent MSO-X 3024A
+
+This is a placeholder dataset containing a waveform but no decodes as the ARINC 429 decode hasn't been written yet.
+
 ## Embedded
 
 ### 1-Wire.scopesession

@@ -1,0 +1,107 @@
+instruments:
+    scope1:
+        id:             1
+        nick:           "m"
+        name:           "MSO-X 3024A"
+        vendor:         "AGILENT TECHNOLOGIES"
+        serial:         "MY51360460"
+        transport:      "null"
+        args:           ""
+        driver:         "mock"
+        rate:           1
+        depth:          1
+        interleave:     0
+        channels:
+            ch0:
+                id:          2
+                index:       0
+                color:       "#ffff00"
+                nick:        "CHAN1"
+                name:        "CHAN1"
+                type:        analog
+                enabled:     1
+                attenuation: 1.000000
+                bwlimit:     0
+                vrange:      40.000000
+                offset:      -0.000000
+                coupling:    dc_1M
+            ch1:
+                id:          3
+                index:       1
+                color:       "#32ff00"
+                nick:        "CHAN2"
+                name:        "CHAN2"
+                type:        analog
+                enabled:     0
+                attenuation: 1.000000
+                bwlimit:     0
+                vrange:      40.000000
+                offset:      -0.000000
+                coupling:    dc_1M
+            ch2:
+                id:          4
+                index:       2
+                color:       "#5578ff"
+                nick:        "CHAN3"
+                name:        "CHAN3"
+                type:        analog
+                enabled:     0
+                attenuation: 1.000000
+                bwlimit:     0
+                vrange:      40.000000
+                offset:      -0.000000
+                coupling:    dc_1M
+            ch3:
+                id:          5
+                index:       3
+                color:       "#ff0084"
+                nick:        "CHAN4"
+                name:        "CHAN4"
+                type:        analog
+                enabled:     0
+                attenuation: 1.000000
+                bwlimit:     0
+                vrange:      40.000000
+                offset:      -0.000000
+                coupling:    dc_1M
+            ch4:
+                id:          6
+                index:       4
+                color:       ""
+                nick:        "EX"
+                name:        "EX"
+                type:        trigger
+                enabled:     0
+ui_config:
+    window:
+        width: 1920
+        height: 1018
+    areas:
+        area7:
+            id:          7
+            persistence: 0
+            channel:     2
+            stream:      0
+    groups: 
+        group8:
+            id:             8
+            name:           "Waveform Group 1"
+            timebaseResolution: fs
+            pixelsPerXUnit: 3.007288e-10
+            xAxisOffset:    -406289051708
+            cursorConfig:   none
+            xcursor0:       0
+            xcursor1:       0
+            ycursor0:       0.000000
+            ycursor1:       0.000000
+            areas:
+                area7:
+                    id: 7
+    splitters: 
+        split9: 
+            id:     9
+            dir:    v
+            split:  0
+            child0: 8
+            child1: 0
+    top: 9
