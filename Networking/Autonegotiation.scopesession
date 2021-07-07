@@ -1,0 +1,149 @@
+instruments:
+    scope1:
+        id:             1
+        nick:           "sda"
+        name:           "SDA816ZI"
+        vendor:         "LECROY"
+        serial:         "LCRY0425N48460"
+        transport:      "null"
+        args:           ""
+        driver:         "mock"
+        rate:           1
+        depth:          1
+        interleave:     0
+        channels:
+            ch0:
+                id:          2
+                index:       0
+                color:       "#ffff00"
+                nick:        "C1"
+                name:        "C1"
+                type:        analog
+                enabled:     0
+                attenuation: 1.000000
+                bwlimit:     0
+                vrange:      0.400000
+                offset:      0.000000
+                coupling:    dc_50
+            ch1:
+                id:          3
+                index:       1
+                color:       "#ff6abc"
+                nick:        "C2"
+                name:        "C2"
+                type:        analog
+                enabled:     1
+                attenuation: 20.000000
+                bwlimit:     0
+                vrange:      2.120000
+                offset:      -0.432000
+                coupling:    dc_50
+            ch2:
+                id:          4
+                index:       2
+                color:       "#00ffff"
+                nick:        "C3"
+                name:        "C3"
+                type:        analog
+                enabled:     1
+                attenuation: 20.000000
+                bwlimit:     0
+                vrange:      2.120000
+                offset:      0.532000
+                coupling:    dc_50
+            ch3:
+                id:          5
+                index:       3
+                color:       "#00c100"
+                nick:        "C4"
+                name:        "C4"
+                type:        analog
+                enabled:     0
+                attenuation: 1.000000
+                bwlimit:     0
+                vrange:      0.400000
+                offset:      0.000000
+                coupling:    dc_50
+            ch4:
+                id:          6
+                index:       4
+                color:       ""
+                nick:        "Ext"
+                name:        "Ext"
+                type:        trigger
+                enabled:     0
+decodes:
+    filter8:
+        id:              8
+        inputs:
+            din:                 7/0
+        parameters:
+        protocol:        "Ethernet Autonegotiation"
+        color:           "#1f78b4"
+        nick:            "EthANeg(C2 - C3)"
+        name:            "EthANeg(C2 - C3)"
+        vrange:          1.000000
+        offset:          0.000000
+    filter7:
+        id:              7
+        inputs:
+            IN+:                 3/0
+            IN-:                 4/0
+        parameters:
+        protocol:        "Subtract"
+        color:           "#a6a6cecee3e3"
+        nick:            "C2 - C3"
+        name:            "C2 - C3"
+        vrange:          5.204000
+        offset:          -0.482000
+ui_config:
+    window:
+        width: 1920
+        height: 1018
+    areas:
+        area9:
+            id:          9
+            persistence: 0
+            channel:     4
+            stream:      0
+        area10:
+            id:          10
+            persistence: 0
+            channel:     7
+            stream:      0
+            overlays:
+                overlay8:
+                    id:      8
+                    stream:  0
+        area11:
+            id:          11
+            persistence: 0
+            channel:     3
+            stream:      0
+    groups: 
+        group12:
+            id:             12
+            name:           "Waveform Group 1"
+            timebaseResolution: fs
+            pixelsPerXUnit: 3.007288e-10
+            xAxisOffset:    -1235759162596
+            cursorConfig:   none
+            xcursor0:       0
+            xcursor1:       0
+            ycursor0:       0.000000
+            ycursor1:       0.000000
+            areas:
+                area11:
+                    id: 11
+                area10:
+                    id: 10
+                area9:
+                    id: 9
+    splitters: 
+        split13: 
+            id:     13
+            dir:    v
+            split:  0
+            child0: 12
+            child1: 0
+    top: 13

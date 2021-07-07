@@ -65,3 +65,10 @@ Source: Teledyne LeCroy SDA 816Zi
 * Eye Pattern
 * IPv4
 * Threshold
+
+### Autonegotiation.scopesession
+
+Source: Teledyne LeCroy SDA 816Zi
+
+* Ethernet Autonegotiation
+* Subtract
