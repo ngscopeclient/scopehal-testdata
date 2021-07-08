@@ -118,6 +118,15 @@ Source: Teledyne LeCroy SDA 816Zi
 * Ethernet Autonegotiation
 * Subtract
 
+## PC
+
+### DVI.scopesession
+
+* 8B/10B (TMDS)
+* Clock Recovery (PLL)
+* DVI
+* Threshold
+
 ## RF
 
 ### Filters.scopesession

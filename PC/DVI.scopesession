@@ -1,0 +1,261 @@
+instruments:
+    scope1:
+        id:             1
+        nick:           "DDA5005A"
+        name:           "DDA5005A"
+        vendor:         "LECROY"
+        serial:         "LCRY0804N01046"
+        transport:      "null"
+        args:           ""
+        driver:         "mock"
+        rate:           1
+        depth:          1
+        interleave:     0
+        channels:
+            ch0:
+                id:          2
+                index:       0
+                color:       "#ffff80"
+                nick:        "D0+"
+                name:        "C1"
+                type:        analog
+                enabled:     1
+                attenuation: 21.000000
+                bwlimit:     0
+                vrange:      0.800000
+                offset:      0.000000
+                coupling:    dc_50
+            ch1:
+                id:          3
+                index:       1
+                color:       "#ff8080"
+                nick:        "D1+"
+                name:        "C2"
+                type:        analog
+                enabled:     1
+                attenuation: 21.000000
+                bwlimit:     0
+                vrange:      0.800000
+                offset:      0.000000
+                coupling:    dc_50
+            ch2:
+                id:          4
+                index:       2
+                color:       "#80ffff"
+                nick:        "D2+"
+                name:        "C3"
+                type:        analog
+                enabled:     1
+                attenuation: 21.000000
+                bwlimit:     0
+                vrange:      0.800000
+                offset:      0.000000
+                coupling:    dc_50
+            ch3:
+                id:          5
+                index:       3
+                color:       "#80ff80"
+                nick:        "CLK+"
+                name:        "C4"
+                type:        analog
+                enabled:     1
+                attenuation: 21.000000
+                bwlimit:     0
+                vrange:      0.800000
+                offset:      0.000000
+                coupling:    dc_50
+            ch4:
+                id:          6
+                index:       4
+                color:       ""
+                nick:        "EX"
+                name:        "EX"
+                type:        trigger
+                enabled:     0
+decodes:
+    filter7:
+        id:              7
+        inputs:
+            IN:                  2/0
+            Gate:                0
+        parameters:
+            Symbol rate:         742.5 MHz
+            Threshold:           0 mV
+        protocol:        "Clock Recovery (PLL)"
+        color:           "#1f78b4"
+        nick:            "ClockRec(D0+)"
+        name:            "ClockRec(D0+)"
+        vrange:          1.000000
+        offset:          0.000000
+    filter11:
+        id:              11
+        inputs:
+            D0 (blue):           8/0
+            D1 (green):          9/0
+            D2 (red):            10/0
+        parameters:
+        protocol:        "DVI"
+        color:           "#fdfdbfbf6f6f"
+        nick:            "DVI(TMDS(Threshold(D0+)),TMDS(Threshold(D1+)),TMDS(Threshold(D2+)))"
+        name:            "DVI(TMDS(Threshold(D0+)),TMDS(Threshold(D1+)),TMDS(Threshold(D2+)))"
+        vrange:          1.000000
+        offset:          0.000000
+    filter10:
+        id:              10
+        inputs:
+            data:                12/0
+            clk:                 7/0
+        parameters:
+            Lane number:         2 
+        protocol:        "8b/10b (TMDS)"
+        color:           "#e3e31a1a1c1c"
+        nick:            "TMDS(Threshold(D2+))"
+        name:            "TMDS(Threshold(D2+))"
+        vrange:          1.000000
+        offset:          0.000000
+    filter12:
+        id:              12
+        inputs:
+            din:                 4/0
+        parameters:
+            Hysteresis:          0 mV
+            Threshold:           0 mV
+        protocol:        "Threshold"
+        color:           "#fbfb9a9a9999"
+        nick:            "Threshold(D2+)"
+        name:            "Threshold(D2+)"
+        vrange:          1.000000
+        offset:          0.000000
+    filter9:
+        id:              9
+        inputs:
+            data:                13/0
+            clk:                 7/0
+        parameters:
+            Lane number:         1 
+        protocol:        "8b/10b (TMDS)"
+        color:           "#3333a0a02c2c"
+        nick:            "TMDS(Threshold(D1+))"
+        name:            "TMDS(Threshold(D1+))"
+        vrange:          1.000000
+        offset:          0.000000
+    filter13:
+        id:              13
+        inputs:
+            din:                 3/0
+        parameters:
+            Hysteresis:          0 mV
+            Threshold:           0 mV
+        protocol:        "Threshold"
+        color:           "#b2b2dfdf8a8a"
+        nick:            "Threshold(D1+)"
+        name:            "Threshold(D1+)"
+        vrange:          1.000000
+        offset:          0.000000
+    filter8:
+        id:              8
+        inputs:
+            data:                14/0
+            clk:                 7/0
+        parameters:
+            Lane number:         0 
+        protocol:        "8b/10b (TMDS)"
+        color:           "#1f1f7878b4b4"
+        nick:            "TMDS(Threshold(D0+))"
+        name:            "TMDS(Threshold(D0+))"
+        vrange:          1.000000
+        offset:          0.000000
+    filter14:
+        id:              14
+        inputs:
+            din:                 2/0
+        parameters:
+            Hysteresis:          0 mV
+            Threshold:           0 mV
+        protocol:        "Threshold"
+        color:           "#a6a6cecee3e3"
+        nick:            "Threshold(D0+)"
+        name:            "Threshold(D0+)"
+        vrange:          1.000000
+        offset:          0.000000
+ui_config:
+    window:
+        width: 1920
+        height: 1018
+    areas:
+        area15:
+            id:          15
+            persistence: 0
+            channel:     2
+            stream:      0
+            overlays:
+                overlay7:
+                    id:      7
+                    stream:  0
+                overlay14:
+                    id:      14
+                    stream:  0
+                overlay8:
+                    id:      8
+                    stream:  0
+                overlay11:
+                    id:      11
+                    stream:  0
+        area16:
+            id:          16
+            persistence: 0
+            channel:     3
+            stream:      0
+            overlays:
+                overlay13:
+                    id:      13
+                    stream:  0
+                overlay9:
+                    id:      9
+                    stream:  0
+        area17:
+            id:          17
+            persistence: 0
+            channel:     5
+            stream:      0
+        area18:
+            id:          18
+            persistence: 0
+            channel:     4
+            stream:      0
+            overlays:
+                overlay12:
+                    id:      12
+                    stream:  0
+                overlay10:
+                    id:      10
+                    stream:  0
+    groups: 
+        group19:
+            id:             19
+            name:           "Waveform Group 1"
+            timebaseResolution: fs
+            pixelsPerXUnit: 3.382768e-08
+            xAxisOffset:    -4492020736
+            cursorConfig:   none
+            xcursor0:       0
+            xcursor1:       0
+            ycursor0:       0.000000
+            ycursor1:       0.000000
+            areas:
+                area15:
+                    id: 15
+                area16:
+                    id: 16
+                area18:
+                    id: 18
+                area17:
+                    id: 17
+    splitters: 
+        split20: 
+            id:     20
+            dir:    h
+            split:  1235
+            child0: 19
+            child1: 0
+    top: 20
