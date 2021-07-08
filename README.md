@@ -117,3 +117,12 @@ Source: Teledyne LeCroy SDA 816Zi
 
 * Ethernet Autonegotiation
 * Subtract
+
+## RF
+
+### Filters.scopesession
+
+Source: Teledyne LeCroy WaveRunner 8404M-MS
+
+* FFT
+* FIR Filter
