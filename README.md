@@ -120,11 +120,14 @@ Source: Teledyne LeCroy SDA 816Zi
 
 ## PC
 
-### DVI.scopesession
+### HDMI.scopesession
+
+Source: Teledyne LeCroy DDA5005A
+
+NOTE: There is currently no HDMI decode, and the TMDS decode chokes on HDMI guard bands.
 
 * 8B/10B (TMDS)
 * Clock Recovery (PLL)
-* DVI
 * Threshold
 
 ## RF

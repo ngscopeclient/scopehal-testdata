@@ -4,9 +4,9 @@ waveforms:
         time_fsec: 441155406193000
         id:        1
         channels:
-            ch2s0:
+            ch0s0:
                 format:       densev1
-                index:        2
+                index:        0
                 stream:       0
                 timescale:    100000
                 trigphase:    36000
@@ -16,15 +16,15 @@ waveforms:
                 stream:       0
                 timescale:    100000
                 trigphase:    36000
-            ch3s0:
+            ch2s0:
                 format:       densev1
-                index:        3
+                index:        2
                 stream:       0
                 timescale:    100000
                 trigphase:    36000
-            ch0s0:
+            ch3s0:
                 format:       densev1
-                index:        0
+                index:        3
                 stream:       0
                 timescale:    100000
                 trigphase:    36000

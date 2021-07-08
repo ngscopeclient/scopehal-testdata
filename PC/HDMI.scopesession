@@ -73,8 +73,47 @@ instruments:
                 type:        trigger
                 enabled:     0
 decodes:
+    filter9:
+        id:              9
+        inputs:
+            data:                7/0
+            clk:                 8/0
+        parameters:
+            Lane number:         0 
+        protocol:        "8b/10b (TMDS)"
+        color:           "#1f1f7878b4b4"
+        nick:            "TMDS(Threshold(D0+))"
+        name:            "TMDS(Threshold(D0+))"
+        vrange:          1.000000
+        offset:          0.000000
+    filter12:
+        id:              12
+        inputs:
+            D0 (blue):           9/0
+            D1 (green):          10/0
+            D2 (red):            11/0
+        parameters:
+        protocol:        "DVI"
+        color:           "#fdfdbfbf6f6f"
+        nick:            "DVI(TMDS(Threshold(D0+)),TMDS(Threshold(D1+)),TMDS(Threshold(D2+)))"
+        name:            "DVI(TMDS(Threshold(D0+)),TMDS(Threshold(D1+)),TMDS(Threshold(D2+)))"
+        vrange:          1.000000
+        offset:          0.000000
     filter7:
         id:              7
+        inputs:
+            din:                 2/0
+        parameters:
+            Hysteresis:          0 mV
+            Threshold:           0 mV
+        protocol:        "Threshold"
+        color:           "#a6a6cecee3e3"
+        nick:            "Threshold(D0+)"
+        name:            "Threshold(D0+)"
+        vrange:          1.000000
+        offset:          0.000000
+    filter8:
+        id:              8
         inputs:
             IN:                  2/0
             Gate:                0
@@ -85,58 +124,6 @@ decodes:
         color:           "#1f78b4"
         nick:            "ClockRec(D0+)"
         name:            "ClockRec(D0+)"
-        vrange:          1.000000
-        offset:          0.000000
-    filter11:
-        id:              11
-        inputs:
-            D0 (blue):           8/0
-            D1 (green):          9/0
-            D2 (red):            10/0
-        parameters:
-        protocol:        "DVI"
-        color:           "#fdfdbfbf6f6f"
-        nick:            "DVI(TMDS(Threshold(D0+)),TMDS(Threshold(D1+)),TMDS(Threshold(D2+)))"
-        name:            "DVI(TMDS(Threshold(D0+)),TMDS(Threshold(D1+)),TMDS(Threshold(D2+)))"
-        vrange:          1.000000
-        offset:          0.000000
-    filter10:
-        id:              10
-        inputs:
-            data:                12/0
-            clk:                 7/0
-        parameters:
-            Lane number:         2 
-        protocol:        "8b/10b (TMDS)"
-        color:           "#e3e31a1a1c1c"
-        nick:            "TMDS(Threshold(D2+))"
-        name:            "TMDS(Threshold(D2+))"
-        vrange:          1.000000
-        offset:          0.000000
-    filter12:
-        id:              12
-        inputs:
-            din:                 4/0
-        parameters:
-            Hysteresis:          0 mV
-            Threshold:           0 mV
-        protocol:        "Threshold"
-        color:           "#fbfb9a9a9999"
-        nick:            "Threshold(D2+)"
-        name:            "Threshold(D2+)"
-        vrange:          1.000000
-        offset:          0.000000
-    filter9:
-        id:              9
-        inputs:
-            data:                13/0
-            clk:                 7/0
-        parameters:
-            Lane number:         1 
-        protocol:        "8b/10b (TMDS)"
-        color:           "#3333a0a02c2c"
-        nick:            "TMDS(Threshold(D1+))"
-        name:            "TMDS(Threshold(D1+))"
         vrange:          1.000000
         offset:          0.000000
     filter13:
@@ -152,30 +139,43 @@ decodes:
         name:            "Threshold(D1+)"
         vrange:          1.000000
         offset:          0.000000
-    filter8:
-        id:              8
-        inputs:
-            data:                14/0
-            clk:                 7/0
-        parameters:
-            Lane number:         0 
-        protocol:        "8b/10b (TMDS)"
-        color:           "#1f1f7878b4b4"
-        nick:            "TMDS(Threshold(D0+))"
-        name:            "TMDS(Threshold(D0+))"
-        vrange:          1.000000
-        offset:          0.000000
     filter14:
         id:              14
         inputs:
-            din:                 2/0
+            din:                 4/0
         parameters:
             Hysteresis:          0 mV
             Threshold:           0 mV
         protocol:        "Threshold"
-        color:           "#a6a6cecee3e3"
-        nick:            "Threshold(D0+)"
-        name:            "Threshold(D0+)"
+        color:           "#fbfb9a9a9999"
+        nick:            "Threshold(D2+)"
+        name:            "Threshold(D2+)"
+        vrange:          1.000000
+        offset:          0.000000
+    filter10:
+        id:              10
+        inputs:
+            data:                13/0
+            clk:                 8/0
+        parameters:
+            Lane number:         1 
+        protocol:        "8b/10b (TMDS)"
+        color:           "#3333a0a02c2c"
+        nick:            "TMDS(Threshold(D1+))"
+        name:            "TMDS(Threshold(D1+))"
+        vrange:          1.000000
+        offset:          0.000000
+    filter11:
+        id:              11
+        inputs:
+            data:                14/0
+            clk:                 8/0
+        parameters:
+            Lane number:         2 
+        protocol:        "8b/10b (TMDS)"
+        color:           "#e3e31a1a1c1c"
+        nick:            "TMDS(Threshold(D2+))"
+        name:            "TMDS(Threshold(D2+))"
         vrange:          1.000000
         offset:          0.000000
 ui_config:
@@ -189,17 +189,14 @@ ui_config:
             channel:     2
             stream:      0
             overlays:
-                overlay7:
-                    id:      7
-                    stream:  0
-                overlay14:
-                    id:      14
-                    stream:  0
                 overlay8:
                     id:      8
                     stream:  0
-                overlay11:
-                    id:      11
+                overlay7:
+                    id:      7
+                    stream:  0
+                overlay9:
+                    id:      9
                     stream:  0
         area16:
             id:          16
@@ -210,8 +207,8 @@ ui_config:
                 overlay13:
                     id:      13
                     stream:  0
-                overlay9:
-                    id:      9
+                overlay10:
+                    id:      10
                     stream:  0
         area17:
             id:          17
@@ -224,19 +221,19 @@ ui_config:
             channel:     4
             stream:      0
             overlays:
-                overlay12:
-                    id:      12
+                overlay14:
+                    id:      14
                     stream:  0
-                overlay10:
-                    id:      10
+                overlay11:
+                    id:      11
                     stream:  0
     groups: 
         group19:
             id:             19
             name:           "Waveform Group 1"
             timebaseResolution: fs
-            pixelsPerXUnit: 3.382768e-08
-            xAxisOffset:    -4492020736
+            pixelsPerXUnit: 2.568792e-07
+            xAxisOffset:    16443029504
             cursorConfig:   none
             xcursor0:       0
             xcursor1:       0
