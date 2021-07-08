@@ -1,0 +1,69 @@
+waveforms:
+    wfm1:
+        timestamp: 1600830779
+        time_fsec: 165277440323000
+        id:        1
+        channels:
+            ch2s0:
+                format:       densev1
+                index:        2
+                stream:       0
+                timescale:    20000000
+                trigphase:    7136000
+            ch1s0:
+                format:       densev1
+                index:        1
+                stream:       0
+                timescale:    20000000
+                trigphase:    7392000
+    wfm2:
+        timestamp: 1600830779
+        time_fsec: 423260733266000
+        id:        2
+        channels:
+            ch2s0:
+                format:       densev1
+                index:        2
+                stream:       0
+                timescale:    20000000
+                trigphase:    3360000
+            ch1s0:
+                format:       densev1
+                index:        1
+                stream:       0
+                timescale:    20000000
+                trigphase:    3552000
+    wfm3:
+        timestamp: 1600830780
+        time_fsec: 680680771211000
+        id:        3
+        channels:
+            ch2s0:
+                format:       densev1
+                index:        2
+                stream:       0
+                timescale:    20000000
+                trigphase:    8416000
+            ch1s0:
+                format:       densev1
+                index:        1
+                stream:       0
+                timescale:    20000000
+                trigphase:    8608000
+    wfm4:
+        timestamp: 1600830780
+        time_fsec: 938471234156000
+        id:        4
+        channels:
+            ch2s0:
+                format:       densev1
+                index:        2
+                stream:       0
+                timescale:    20000000
+                trigphase:    13536000
+            ch1s0:
+                format:       densev1
+                index:        1
+                stream:       0
+                timescale:    20000000
+                trigphase:    13728000

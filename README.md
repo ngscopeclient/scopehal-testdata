@@ -37,6 +37,14 @@ correctly flags this as a problem.
 * 1-Wire
 * Threshold
 
+### I2CEEprom.scopesession
+
+Source: Teledyne LeCroy WaveRunner 8404M-MS
+
+* Threshold
+* I2C
+* I2C EEPROM
+
 ## Memory
 
 ### DDR1.scopesession
