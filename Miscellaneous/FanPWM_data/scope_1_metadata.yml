@@ -1,0 +1,18 @@
+waveforms:
+    wfm1:
+        timestamp: 1601590931
+        time_fsec: 914999996252000
+        id:        1
+        channels:
+            ch3s0:
+                format:       densev1
+                index:        3
+                stream:       0
+                timescale:    500000000
+                trigphase:    43008000
+            ch0s0:
+                format:       densev1
+                index:        0
+                stream:       0
+                timescale:    500000000
+                trigphase:    43008000

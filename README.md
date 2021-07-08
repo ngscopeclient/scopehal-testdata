@@ -48,6 +48,15 @@ quite fully debugged so that's not included.
 
 * DDR1 Command Bus
 
+## Miscellaneous
+
+### FanPWM.scopesession
+
+Source: Teledyne LeCroy WaveRunner 8404M-MS
+
+* Duty Cycle
+* Tachometer
+
 ## Mobile
 
 ### DSI.scopesession
