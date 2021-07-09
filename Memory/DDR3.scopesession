@@ -1,0 +1,538 @@
+instruments:
+    scope1:
+        id:             1
+        nick:           ""
+        name:           "WAVERUNNER8104-MS"
+        vendor:         "LECROY"
+        serial:         "LCRY4204N20525"
+        transport:      "null"
+        args:           ""
+        driver:         "mock"
+        rate:           1
+        depth:          1
+        interleave:     0
+        channels:
+            ch0:
+                id:          2
+                index:       0
+                color:       "#ffff80"
+                nick:        "CLK"
+                name:        "C1"
+                type:        analog
+                enabled:     1
+                attenuation: 10.000000
+                bwlimit:     0
+                vrange:      1.600000
+                offset:      -0.695000
+                coupling:    dc_50
+            ch1:
+                id:          3
+                index:       1
+                color:       "#ff8080"
+                nick:        "WE#"
+                name:        "C2"
+                type:        analog
+                enabled:     1
+                attenuation: 10.000000
+                bwlimit:     0
+                vrange:      1.600000
+                offset:      -0.695000
+                coupling:    dc_50
+            ch2:
+                id:          4
+                index:       2
+                color:       "#80ffff"
+                nick:        "CAS#"
+                name:        "C3"
+                type:        analog
+                enabled:     1
+                attenuation: 10.000000
+                bwlimit:     0
+                vrange:      1.600000
+                offset:      -0.695000
+                coupling:    dc_50
+            ch3:
+                id:          5
+                index:       3
+                color:       "#80ff80"
+                nick:        "RAS#"
+                name:        "C4"
+                type:        analog
+                enabled:     1
+                attenuation: 10.000000
+                bwlimit:     0
+                vrange:      1.600000
+                offset:      -0.695000
+                coupling:    dc_50
+            ch4:
+                id:          6
+                index:       4
+                color:       ""
+                nick:        "wr8:EX"
+                name:        "EX"
+                type:        trigger
+                enabled:     0
+            ch5:
+                id:          7
+                index:       5
+                color:       "#e31a1c"
+                nick:        "wr8:Digital0"
+                name:        "Digital0"
+                type:        digital
+                width:       1
+                thresh:      0.500000
+                hys:         0.100000
+                enabled:     1
+            ch6:
+                id:          8
+                index:       6
+                color:       "#fdbf6f"
+                nick:        "wr8:Digital1"
+                name:        "Digital1"
+                type:        digital
+                width:       1
+                thresh:      0.500000
+                hys:         0.100000
+                enabled:     1
+            ch7:
+                id:          9
+                index:       7
+                color:       "#ff7f00"
+                nick:        "wr8:Digital2"
+                name:        "Digital2"
+                type:        digital
+                width:       1
+                thresh:      0.500000
+                hys:         0.100000
+                enabled:     1
+            ch8:
+                id:          10
+                index:       8
+                color:       "#cab2d6"
+                nick:        "wr8:Digital3"
+                name:        "Digital3"
+                type:        digital
+                width:       1
+                thresh:      0.500000
+                hys:         0.100000
+                enabled:     1
+            ch9:
+                id:          11
+                index:       9
+                color:       "#6a3d9a"
+                nick:        "wr8:Digital4"
+                name:        "Digital4"
+                type:        digital
+                width:       1
+                thresh:      0.500000
+                hys:         0.100000
+                enabled:     1
+            ch10:
+                id:          12
+                index:       10
+                color:       "#ffff99"
+                nick:        "wr8:Digital5"
+                name:        "Digital5"
+                type:        digital
+                width:       1
+                thresh:      0.500000
+                hys:         0.100000
+                enabled:     1
+            ch11:
+                id:          13
+                index:       11
+                color:       "#b15928"
+                nick:        "wr8:Digital6"
+                name:        "Digital6"
+                type:        digital
+                width:       1
+                thresh:      0.500000
+                hys:         0.100000
+                enabled:     1
+            ch12:
+                id:          14
+                index:       12
+                color:       "#a6cee3"
+                nick:        "wr8:Digital7"
+                name:        "Digital7"
+                type:        digital
+                width:       1
+                thresh:      0.500000
+                hys:         0.100000
+                enabled:     1
+            ch13:
+                id:          15
+                index:       13
+                color:       "#1f78b4"
+                nick:        "wr8:Digital8"
+                name:        "Digital8"
+                type:        digital
+                width:       1
+                thresh:      0.500000
+                hys:         0.100000
+                enabled:     1
+            ch14:
+                id:          16
+                index:       14
+                color:       "#b2df8a"
+                nick:        "wr8:Digital9"
+                name:        "Digital9"
+                type:        digital
+                width:       1
+                thresh:      0.500000
+                hys:         0.100000
+                enabled:     1
+            ch15:
+                id:          17
+                index:       15
+                color:       "#33a02c"
+                nick:        "wr8:Digital10"
+                name:        "Digital10"
+                type:        digital
+                width:       1
+                thresh:      0.500000
+                hys:         0.100000
+                enabled:     1
+            ch16:
+                id:          18
+                index:       16
+                color:       "#fb9a99"
+                nick:        "wr8:Digital11"
+                name:        "Digital11"
+                type:        digital
+                width:       1
+                thresh:      0.500000
+                hys:         0.100000
+                enabled:     1
+            ch17:
+                id:          19
+                index:       17
+                color:       "#e31a1c"
+                nick:        "wr8:Digital12"
+                name:        "Digital12"
+                type:        digital
+                width:       1
+                thresh:      0.500000
+                hys:         0.100000
+                enabled:     1
+            ch18:
+                id:          20
+                index:       18
+                color:       "#fdbf6f"
+                nick:        "wr8:Digital13"
+                name:        "Digital13"
+                type:        digital
+                width:       1
+                thresh:      0.500000
+                hys:         0.100000
+                enabled:     1
+            ch19:
+                id:          21
+                index:       19
+                color:       "#ff7f00"
+                nick:        "wr8:Digital14"
+                name:        "Digital14"
+                type:        digital
+                width:       1
+                thresh:      0.500000
+                hys:         0.100000
+                enabled:     1
+            ch20:
+                id:          22
+                index:       20
+                color:       "#cab2d6"
+                nick:        "wr8:Digital15"
+                name:        "Digital15"
+                type:        digital
+                width:       1
+                thresh:      0.500000
+                hys:         0.100000
+                enabled:     1
+    scope23:
+        id:             23
+        nick:           ""
+        name:           "HDO9204"
+        vendor:         "LECROY"
+        serial:         "LCRY4403N30190"
+        transport:      "null"
+        args:           ""
+        driver:         "mock"
+        rate:           1
+        depth:          1
+        interleave:     0
+        channels:
+            ch0:
+                id:          24
+                index:       0
+                color:       "#ffff80"
+                nick:        "A12"
+                name:        "C1"
+                type:        analog
+                enabled:     1
+                attenuation: 10.000000
+                bwlimit:     0
+                vrange:      1.600000
+                offset:      -0.524000
+                coupling:    dc_50
+            ch1:
+                id:          25
+                index:       1
+                color:       "#ff8080"
+                nick:        "A10"
+                name:        "C2"
+                type:        analog
+                enabled:     1
+                attenuation: 10.000000
+                bwlimit:     0
+                vrange:      1.600000
+                offset:      -0.524000
+                coupling:    dc_50
+            ch2:
+                id:          26
+                index:       2
+                color:       "#80ffff"
+                nick:        "CS#"
+                name:        "C3"
+                type:        analog
+                enabled:     1
+                attenuation: 10.000000
+                bwlimit:     0
+                vrange:      1.600000
+                offset:      -0.524000
+                coupling:    dc_50
+            ch3:
+                id:          27
+                index:       3
+                color:       "#80ff80"
+                nick:        "Trigger"
+                name:        "C4"
+                type:        analog
+                enabled:     0
+                attenuation: 1.000000
+                bwlimit:     0
+                vrange:      1.600000
+                offset:      -0.636000
+                coupling:    dc_50
+            ch4:
+                id:          28
+                index:       4
+                color:       ""
+                nick:        "hdo9:EX"
+                name:        "EX"
+                type:        trigger
+                enabled:     0
+decodes:
+    filter29:
+        id:              29
+        inputs:
+            din:                 26/0
+        parameters:
+            Hysteresis:          0 mV
+            Threshold:           675 mV
+        protocol:        "Threshold"
+        color:           "#a6cee3"
+        nick:            "Threshold(CS#)"
+        name:            "Threshold(CS#)"
+        vrange:          1.000000
+        offset:          0.000000
+    filter30:
+        id:              30
+        inputs:
+            din:                 24/0
+        parameters:
+            Hysteresis:          0 mV
+            Threshold:           675 mV
+        protocol:        "Threshold"
+        color:           "#fb9a99"
+        nick:            "Threshold(A12)"
+        name:            "Threshold(A12)"
+        vrange:          1.000000
+        offset:          0.000000
+    filter36:
+        id:              36
+        inputs:
+            CLK:                 31/0
+            WE#:                 32/0
+            RAS#:                33/0
+            CAS#:                34/0
+            CS#:                 29/0
+            A12:                 30/0
+            A10:                 35/0
+        parameters:
+        protocol:        "DDR3 Command Bus"
+        color:           "#1f78b4"
+        nick:            "DDR3Cmd(Threshold(CLK))"
+        name:            "DDR3Cmd(Threshold(CLK))"
+        vrange:          1.000000
+        offset:          0.000000
+    filter33:
+        id:              33
+        inputs:
+            din:                 5/0
+        parameters:
+            Hysteresis:          0 mV
+            Threshold:           675 mV
+        protocol:        "Threshold"
+        color:           "#33a02c"
+        nick:            "Threshold(RAS#)"
+        name:            "Threshold(RAS#)"
+        vrange:          1.000000
+        offset:          0.000000
+    filter32:
+        id:              32
+        inputs:
+            din:                 3/0
+        parameters:
+            Hysteresis:          0 mV
+            Threshold:           675 mV
+        protocol:        "Threshold"
+        color:           "#1f78b4"
+        nick:            "Threshold(WE#)"
+        name:            "Threshold(WE#)"
+        vrange:          1.000000
+        offset:          0.000000
+    filter35:
+        id:              35
+        inputs:
+            din:                 25/0
+        parameters:
+            Hysteresis:          0 mV
+            Threshold:           675 mV
+        protocol:        "Threshold"
+        color:           "#e31a1c"
+        nick:            "Threshold(A10)"
+        name:            "Threshold(A10)"
+        vrange:          1.000000
+        offset:          0.000000
+    filter31:
+        id:              31
+        inputs:
+            din:                 2/0
+        parameters:
+            Hysteresis:          0 mV
+            Threshold:           675 mV
+        protocol:        "Threshold"
+        color:           "#a6cee3"
+        nick:            "Threshold(CLK)"
+        name:            "Threshold(CLK)"
+        vrange:          1.000000
+        offset:          0.000000
+    filter34:
+        id:              34
+        inputs:
+            din:                 4/0
+        parameters:
+            Hysteresis:          0 mV
+            Threshold:           675 mV
+        protocol:        "Threshold"
+        color:           "#b2df8a"
+        nick:            "Threshold(CAS#)"
+        name:            "Threshold(CAS#)"
+        vrange:          1.000000
+        offset:          0.000000
+ui_config:
+    window:
+        width: 1920
+        height: 1018
+    areas:
+        area37:
+            id:          37
+            persistence: 0
+            channel:     25
+            stream:      0
+            overlays:
+                overlay35:
+                    id:      35
+                    stream:  0
+        area38:
+            id:          38
+            persistence: 0
+            channel:     4
+            stream:      0
+            overlays:
+                overlay34:
+                    id:      34
+                    stream:  0
+        area39:
+            id:          39
+            persistence: 0
+            channel:     26
+            stream:      0
+            overlays:
+                overlay29:
+                    id:      29
+                    stream:  0
+        area40:
+            id:          40
+            persistence: 0
+            channel:     3
+            stream:      0
+            overlays:
+                overlay32:
+                    id:      32
+                    stream:  0
+        area41:
+            id:          41
+            persistence: 0
+            channel:     2
+            stream:      0
+            overlays:
+                overlay31:
+                    id:      31
+                    stream:  0
+                overlay36:
+                    id:      36
+                    stream:  0
+        area42:
+            id:          42
+            persistence: 0
+            channel:     24
+            stream:      0
+            overlays:
+                overlay30:
+                    id:      30
+                    stream:  0
+        area43:
+            id:          43
+            persistence: 0
+            channel:     5
+            stream:      0
+            overlays:
+                overlay33:
+                    id:      33
+                    stream:  0
+    groups: 
+        group44:
+            id:             44
+            name:           "Waveform Group 2"
+            timebaseResolution: fs
+            pixelsPerXUnit: 7.600005e-08
+            xAxisOffset:    -2024329039
+            cursorConfig:   none
+            xcursor0:       5016006000
+            xcursor1:       5015827000
+            ycursor0:       0.000000
+            ycursor1:       0.000000
+            areas:
+                area41:
+                    id: 41
+                area40:
+                    id: 40
+                area38:
+                    id: 38
+                area43:
+                    id: 43
+                area42:
+                    id: 42
+                area37:
+                    id: 37
+                area39:
+                    id: 39
+    splitters: 
+        split45: 
+            id:     45
+            dir:    h
+            split:  0
+            child0: 44
+            child1: 0
+    top: 45

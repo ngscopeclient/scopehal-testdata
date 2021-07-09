@@ -37,7 +37,7 @@ Source: Digilent ADP3450
 
 Source: CSV import, original instrument unknown
 
-Note: The device this waveform came from has a bug and the initial reset pulse is slightly too short. The decode
+Note: The device this dataset came from has a bug and the initial reset pulse is slightly too short. The decode
 correctly flags this as a problem.
 
 * 1-Wire
@@ -61,6 +61,16 @@ Note: This dataset also contains analog signals for DQS and a single DQ line how
 quite fully debugged so that's not included.
 
 * DDR1 Command Bus
+
+### DDR3.scopesession
+
+Source: Teledyne LeCroy WaveRunner 8404M-MS, Teledyne LeCroy HDO9204
+
+Note: This dataset was collected using the multi-scope sync feature from two different scopes.
+The DUT is an embedded device that runs DDR3 in DLL-off mode at 250 MT/s (125 MHz clock).
+
+* Threshold
+* DDR3 Command Bus
 
 ## Miscellaneous
 
