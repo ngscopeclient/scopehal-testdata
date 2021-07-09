@@ -71,6 +71,13 @@ Source: Teledyne LeCroy WaveRunner 8404M-MS
 * Duty Cycle
 * Tachometer
 
+### QuadratureEncoder.scopesession
+
+Source: Teledyne LeCroy WaveRunner 8404M-MS
+
+* Quadrature
+* Threshold
+
 ## Mobile
 
 ### DSI.scopesession
