@@ -25,6 +25,12 @@ Source: Agilent MSO-X 3024A
 
 This is a placeholder dataset containing a waveform but no decodes as the ARINC 429 decode hasn't been written yet.
 
+### MIL-STD-1553.scopesession
+
+Source: Digilent ADP3450
+
+* MIL-STD-1553
+
 ## Embedded
 
 ### 1-Wire.scopesession

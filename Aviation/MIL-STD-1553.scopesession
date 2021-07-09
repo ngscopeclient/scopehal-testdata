@@ -1,0 +1,76 @@
+instruments:
+    scope1:
+        id:             1
+        nick:           "import"
+        name:           "ADP3450"
+        vendor:         "Digilent"
+        serial:         "SN:210018B04985"
+        transport:      "null"
+        args:           ""
+        driver:         "mock"
+        rate:           1
+        depth:          1
+        interleave:     0
+        channels:
+            ch0:
+                id:          2
+                index:       0
+                color:       "#a6a6cecee3e3"
+                nick:        "CH1"
+                name:        "Channel 1 (V)"
+                type:        analog
+                enabled:     1
+                attenuation: 0.000000
+                bwlimit:     0
+                vrange:      14.647117
+                offset:      -0.005033
+                coupling:    dc_1M
+decodes:
+    filter3:
+        id:              3
+        inputs:
+            in:                  2/0
+        parameters:
+        protocol:        "MIL-STD-1553"
+        color:           "#a6cee3"
+        nick:            "MIL-STD-1553(CH1)"
+        name:            "MIL-STD-1553(CH1)"
+        vrange:          1.000000
+        offset:          0.000000
+ui_config:
+    window:
+        width: 1920
+        height: 1018
+    areas:
+        area4:
+            id:          4
+            persistence: 0
+            channel:     2
+            stream:      0
+            overlays:
+                overlay3:
+                    id:      3
+                    stream:  0
+    groups: 
+        group5:
+            id:             5
+            name:           "Waveform Group 2"
+            timebaseResolution: fs
+            pixelsPerXUnit: 1.503644e-08
+            xAxisOffset:    98922463232
+            cursorConfig:   none
+            xcursor0:       0
+            xcursor1:       0
+            ycursor0:       0.000000
+            ycursor1:       0.000000
+            areas:
+                area4:
+                    id: 4
+    splitters: 
+        split6: 
+            id:     6
+            dir:    v
+            split:  0
+            child0: 5
+            child1: 0
+    top: 6
