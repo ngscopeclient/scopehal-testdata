@@ -79,6 +79,14 @@ Source: Teledyne LeCroy WaveRunner 8404M-MS
 * SD Card Command Bus
 * SD Card Data Bus
 
+### SPIFlash.scopesession
+
+Source: Teledyne LeCroy WaveRunner 8404M-MS
+
+* Quad SPI
+* SPI
+* SPI Flash
+
 ## Miscellaneous
 
 ### FanPWM.scopesession

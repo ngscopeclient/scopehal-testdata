@@ -1,0 +1,42 @@
+waveforms:
+    wfm1:
+        timestamp: 1599694995
+        time_fsec: 363989881000000
+        id:        1
+        channels:
+            ch9s0:
+                format:       sparsev1
+                index:        9
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+            ch8s0:
+                format:       sparsev1
+                index:        8
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+            ch5s0:
+                format:       sparsev1
+                index:        5
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+            ch7s0:
+                format:       sparsev1
+                index:        7
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+            ch10s0:
+                format:       sparsev1
+                index:        10
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+            ch6s0:
+                format:       sparsev1
+                index:        6
+                stream:       0
+                timescale:    800000
+                trigphase:    0
