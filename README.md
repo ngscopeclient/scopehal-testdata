@@ -151,6 +151,21 @@ NOTE: There is currently no HDMI decode, and the TMDS decode chokes on HDMI guar
 * Clock Recovery (PLL)
 * Threshold
 
+### PCIe.scopesession
+
+Source: Teledyne LeCroy WaveRunner 8404M-MS
+
+* 1000Base-X
+* 8B/10B (IBM)
+* Clock Recovery (PLL)
+* Emphasis Removal
+* Eye Pattern
+* IPv4
+* PCIe Gen1/2 Logical
+* PCIe Data Link
+* PCIe Transport
+* Threshold
+
 ## RF
 
 ### Filters.scopesession

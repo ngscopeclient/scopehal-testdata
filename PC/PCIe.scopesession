@@ -1,0 +1,582 @@
+instruments:
+    scope1:
+        id:             1
+        nick:           "wr8"
+        name:           "WAVERUNNER8404M-MS"
+        vendor:         "LECROY"
+        serial:         "LCRY4254N20447"
+        transport:      "null"
+        args:           ""
+        driver:         "mock"
+        rate:           1
+        depth:          1
+        interleave:     0
+        channels:
+            ch0:
+                id:          2
+                index:       0
+                color:       "#ffff00"
+                nick:        "C1"
+                name:        "C1"
+                type:        analog
+                enabled:     0
+                attenuation: 1.000000
+                bwlimit:     0
+                vrange:      0.400000
+                offset:      0.000000
+                coupling:    dc_1M
+            ch1:
+                id:          3
+                index:       1
+                color:       "#ff6abc"
+                nick:        "PCIE"
+                name:        "C2"
+                type:        analog
+                enabled:     1
+                attenuation: 10.000000
+                bwlimit:     0
+                vrange:      0.800000
+                offset:      0.000000
+                coupling:    dc_50
+            ch2:
+                id:          4
+                index:       2
+                color:       "#00ffff"
+                nick:        "ETH"
+                name:        "C3"
+                type:        analog
+                enabled:     1
+                attenuation: 10.000000
+                bwlimit:     0
+                vrange:      0.583200
+                offset:      0.000000
+                coupling:    dc_50
+            ch3:
+                id:          5
+                index:       3
+                color:       "#00c100"
+                nick:        "C4"
+                name:        "C4"
+                type:        analog
+                enabled:     0
+                attenuation: 1.000000
+                bwlimit:     0
+                vrange:      0.400000
+                offset:      0.000000
+                coupling:    dc_1M
+            ch4:
+                id:          6
+                index:       4
+                color:       ""
+                nick:        "Ext"
+                name:        "Ext"
+                type:        trigger
+                enabled:     0
+            ch5:
+                id:          7
+                index:       5
+                color:       "#e31a1c"
+                nick:        "D0"
+                name:        "D0"
+                type:        digital
+                width:       1
+                thresh:      0.500000
+                hys:         0.100000
+                enabled:     0
+            ch6:
+                id:          8
+                index:       6
+                color:       "#fdbf6f"
+                nick:        "D1"
+                name:        "D1"
+                type:        digital
+                width:       1
+                thresh:      0.500000
+                hys:         0.100000
+                enabled:     0
+            ch7:
+                id:          9
+                index:       7
+                color:       "#ff7f00"
+                nick:        "D2"
+                name:        "D2"
+                type:        digital
+                width:       1
+                thresh:      0.500000
+                hys:         0.100000
+                enabled:     0
+            ch8:
+                id:          10
+                index:       8
+                color:       "#cab2d6"
+                nick:        "D3"
+                name:        "D3"
+                type:        digital
+                width:       1
+                thresh:      0.500000
+                hys:         0.100000
+                enabled:     0
+            ch9:
+                id:          11
+                index:       9
+                color:       "#6a3d9a"
+                nick:        "D4"
+                name:        "D4"
+                type:        digital
+                width:       1
+                thresh:      0.500000
+                hys:         0.100000
+                enabled:     0
+            ch10:
+                id:          12
+                index:       10
+                color:       "#ffff99"
+                nick:        "D5"
+                name:        "D5"
+                type:        digital
+                width:       1
+                thresh:      0.500000
+                hys:         0.100000
+                enabled:     0
+            ch11:
+                id:          13
+                index:       11
+                color:       "#b15928"
+                nick:        "D6"
+                name:        "D6"
+                type:        digital
+                width:       1
+                thresh:      0.500000
+                hys:         0.100000
+                enabled:     0
+            ch12:
+                id:          14
+                index:       12
+                color:       "#a6cee3"
+                nick:        "D7"
+                name:        "D7"
+                type:        digital
+                width:       1
+                thresh:      0.500000
+                hys:         0.100000
+                enabled:     0
+            ch13:
+                id:          15
+                index:       13
+                color:       "#1f78b4"
+                nick:        "D8"
+                name:        "D8"
+                type:        digital
+                width:       1
+                thresh:      0.500000
+                hys:         0.100000
+                enabled:     0
+            ch14:
+                id:          16
+                index:       14
+                color:       "#b2df8a"
+                nick:        "D9"
+                name:        "D9"
+                type:        digital
+                width:       1
+                thresh:      0.500000
+                hys:         0.100000
+                enabled:     0
+            ch15:
+                id:          17
+                index:       15
+                color:       "#33a02c"
+                nick:        "D10"
+                name:        "D10"
+                type:        digital
+                width:       1
+                thresh:      0.500000
+                hys:         0.100000
+                enabled:     0
+            ch16:
+                id:          18
+                index:       16
+                color:       "#fb9a99"
+                nick:        "D11"
+                name:        "D11"
+                type:        digital
+                width:       1
+                thresh:      0.500000
+                hys:         0.100000
+                enabled:     0
+            ch17:
+                id:          19
+                index:       17
+                color:       "#e31a1c"
+                nick:        "D12"
+                name:        "D12"
+                type:        digital
+                width:       1
+                thresh:      0.500000
+                hys:         0.100000
+                enabled:     0
+            ch18:
+                id:          20
+                index:       18
+                color:       "#fdbf6f"
+                nick:        "D13"
+                name:        "D13"
+                type:        digital
+                width:       1
+                thresh:      0.500000
+                hys:         0.100000
+                enabled:     0
+            ch19:
+                id:          21
+                index:       19
+                color:       "#ff7f00"
+                nick:        "D14"
+                name:        "D14"
+                type:        digital
+                width:       1
+                thresh:      0.500000
+                hys:         0.100000
+                enabled:     0
+            ch20:
+                id:          22
+                index:       20
+                color:       "#cab2d6"
+                nick:        "D15"
+                name:        "D15"
+                type:        digital
+                width:       1
+                thresh:      0.500000
+                hys:         0.100000
+                enabled:     0
+decodes:
+    filter23:
+        id:              23
+        inputs:
+            IN:                  4/0
+            Gate:                0
+        parameters:
+            Symbol rate:         1.25 GHz
+            Threshold:           0 mV
+        protocol:        "Clock Recovery (PLL)"
+        color:           "#b2b2dfdf8a8a"
+        nick:            "ClockRec(ETH)"
+        name:            "ClockRec(ETH)"
+        vrange:          1.000000
+        offset:          0.000000
+    filter24:
+        id:              24
+        inputs:
+            IN:                  3/0
+            Gate:                0
+        parameters:
+            Symbol rate:         2.5 GHz
+            Threshold:           0 mV
+        protocol:        "Clock Recovery (PLL)"
+        color:           "#a6a6cecee3e3"
+        nick:            "ClockRec(PCIE)"
+        name:            "ClockRec(PCIE)"
+        vrange:          1.000000
+        offset:          0.000000
+    filter26:
+        id:              26
+        inputs:
+            logical:             25/0
+        parameters:
+        protocol:        "PCIe Data Link"
+        color:           "#cacab2b2d6d6"
+        nick:            "DLLP"
+        name:            "PCIEDataLink(PCIE2Logical(8b10b(Threshold(PCIE))))"
+        vrange:          1.000000
+        offset:          0.000000
+    filter28:
+        id:              28
+        inputs:
+            IN:                  27/0
+            Gate:                0
+        parameters:
+            Symbol rate:         2.5 GHz
+            Threshold:           0 mV
+        protocol:        "Clock Recovery (PLL)"
+        color:           "#fdfdbfbf6f6f"
+        nick:            "ClockRec(EmphasisRemoval(PCIE, 6 dB))"
+        name:            "ClockRec(EmphasisRemoval(PCIE, 6 dB))"
+        vrange:          1.000000
+        offset:          0.000000
+    filter27:
+        id:              27
+        inputs:
+            in:                  3/0
+        parameters:
+            Data Rate:           2.5 Gbps
+            Emphasis Amount:     6 dB
+            Emphasis Type:       "De-emphasis"
+        protocol:        "Emphasis Removal"
+        color:           "#e3e31a1a1c1c"
+        nick:            "EmphasisRemoval(PCIE, 6 dB)"
+        name:            "EmphasisRemoval(PCIE, 6 dB)"
+        vrange:          0.778570
+        offset:          -0.012970
+    filter30:
+        id:              30
+        inputs:
+            data:                29/0
+            clk:                 24/0
+        parameters:
+            Display Format:      "Dotted (K28.5 D21.5)"
+        protocol:        "8b/10b (IBM)"
+        color:           "#fdfdbfbf6f6f"
+        nick:            "8b10b"
+        name:            "8b10b(Threshold(PCIE))"
+        vrange:          1.000000
+        offset:          0.000000
+    filter31:
+        id:              31
+        inputs:
+            link:                26/0
+        parameters:
+        protocol:        "PCIe Transport"
+        color:           "#6a6a3d3d9a9a"
+        nick:            "TLP"
+        name:            "PCIETransport(PCIEDataLink(PCIE2Logical(8b10b(Threshold(PCIE)))))"
+        vrange:          1.000000
+        offset:          0.000000
+    filter32:
+        id:              32
+        inputs:
+            din:                 4/0
+            clk:                 23/0
+        parameters:
+            Bit Rate:            1.25 Gbps
+            Bit Rate Mode:       "Auto"
+            Center Voltage:      0 mV
+            Clock Alignment:     "Center"
+            Clock Edge:          "Both"
+            Mask:                ""
+            Saturation Level:    1 
+            Vertical Range:      250 mV
+            Vertical Scale Mode: "Auto"
+        protocol:        "Eye pattern"
+        color:           "#3333a0a02c2c"
+        nick:            "Eye(ETH, ClockRec(ETH))"
+        name:            "Eye(ETH, ClockRec(ETH))"
+        vrange:          0.583200
+        offset:          -0.000000
+    filter29:
+        id:              29
+        inputs:
+            din:                 3/0
+        parameters:
+            Hysteresis:          0 mV
+            Threshold:           0 mV
+        protocol:        "Threshold"
+        color:           "#1f1f7878b4b4"
+        nick:            "Threshold(PCIE)"
+        name:            "Threshold(PCIE)"
+        vrange:          1.000000
+        offset:          0.000000
+    filter34:
+        id:              34
+        inputs:
+            data:                33/0
+        parameters:
+            PCAP Output:         ""
+        protocol:        "Ethernet - 1000BaseX"
+        color:           "#e31a1c"
+        nick:            "1000BaseX(8b10b(Threshold(ETH)))"
+        name:            "1000BaseX(8b10b(Threshold(ETH)))"
+        vrange:          1.000000
+        offset:          0.000000
+    filter35:
+        id:              35
+        inputs:
+            din:                 4/0
+        parameters:
+            Hysteresis:          0 mV
+            Threshold:           0 mV
+        protocol:        "Threshold"
+        color:           "#3333a0a02c2c"
+        nick:            "Threshold(ETH)"
+        name:            "Threshold(ETH)"
+        vrange:          1.000000
+        offset:          0.000000
+    filter36:
+        id:              36
+        inputs:
+            eth:                 34/0
+        parameters:
+        protocol:        "IPv4"
+        color:           "#ff7f00"
+        nick:            "IPv4(1000BaseX(8b10b(Threshold(ETH))))"
+        name:            "IPv4(1000BaseX(8b10b(Threshold(ETH))))"
+        vrange:          1.000000
+        offset:          0.000000
+    filter33:
+        id:              33
+        inputs:
+            data:                35/0
+            clk:                 23/0
+        parameters:
+            Display Format:      "Dotted (K28.5 D21.5)"
+        protocol:        "8b/10b (IBM)"
+        color:           "#fbfb9a9a9999"
+        nick:            "8b10b(Threshold(ETH))"
+        name:            "8b10b(Threshold(ETH))"
+        vrange:          1.000000
+        offset:          0.000000
+    filter37:
+        id:              37
+        inputs:
+            din:                 27/0
+            clk:                 28/0
+        parameters:
+            Bit Rate:            1.25 Gbps
+            Bit Rate Mode:       "Auto"
+            Center Voltage:      0 mV
+            Clock Alignment:     "Center"
+            Clock Edge:          "Both"
+            Mask:                ""
+            Saturation Level:    1 
+            Vertical Range:      250 mV
+            Vertical Scale Mode: "Auto"
+        protocol:        "Eye pattern"
+        color:           "#fbfb9a9a9999"
+        nick:            "Eye(EmphasisRemoval(PCIE, 6 dB))"
+        name:            "Eye(EmphasisRemoval(PCIE, 6 dB), ClockRec(EmphasisRemoval(PCIE, 6 dB)))"
+        vrange:          0.778570
+        offset:          -0.000000
+    filter25:
+        id:              25
+        inputs:
+            data:                30/0
+        parameters:
+        protocol:        "PCIe Gen 1/2 Logical"
+        color:           "#ffff7f7f0000"
+        nick:            "Logical"
+        name:            "PCIE2Logical(8b10b(Threshold(PCIE)))"
+        vrange:          1.000000
+        offset:          0.000000
+ui_config:
+    window:
+        width: 1920
+        height: 1018
+    areas:
+        area38:
+            id:          38
+            persistence: 0
+            channel:     32
+            stream:      0
+        area39:
+            id:          39
+            persistence: 0
+            channel:     37
+            stream:      0
+        area40:
+            id:          40
+            persistence: 0
+            channel:     4
+            stream:      0
+            overlays:
+                overlay23:
+                    id:      23
+                    stream:  0
+                overlay35:
+                    id:      35
+                    stream:  0
+                overlay33:
+                    id:      33
+                    stream:  0
+                overlay34:
+                    id:      34
+                    stream:  0
+                overlay36:
+                    id:      36
+                    stream:  0
+        area41:
+            id:          41
+            persistence: 0
+            channel:     3
+            stream:      0
+            overlays:
+                overlay24:
+                    id:      24
+                    stream:  0
+                overlay29:
+                    id:      29
+                    stream:  0
+                overlay30:
+                    id:      30
+                    stream:  0
+                overlay25:
+                    id:      25
+                    stream:  0
+                overlay26:
+                    id:      26
+                    stream:  0
+                overlay31:
+                    id:      31
+                    stream:  0
+    groups: 
+        group42:
+            id:             42
+            name:           "Waveform Group 12"
+            timebaseResolution: fs
+            pixelsPerXUnit: 4.769201e-04
+            xAxisOffset:    -799924
+            cursorConfig:   none
+            xcursor0:       0
+            xcursor1:       0
+            ycursor0:       0.000000
+            ycursor1:       0.000000
+            areas:
+                area38:
+                    id: 38
+        group43:
+            id:             43
+            name:           "Waveform Group 1"
+            timebaseResolution: fs
+            pixelsPerXUnit: 3.853681e-07
+            xAxisOffset:    5101621351
+            cursorConfig:   x_dual
+            xcursor0:       6389925607
+            xcursor1:       6698023143
+            ycursor0:       0.000000
+            ycursor1:       0.000000
+            areas:
+                area41:
+                    id: 41
+                area40:
+                    id: 40
+        group44:
+            id:             44
+            name:           "Waveform Group 10"
+            timebaseResolution: fs
+            pixelsPerXUnit: 9.540083e-04
+            xAxisOffset:    -399892
+            cursorConfig:   none
+            xcursor0:       0
+            xcursor1:       0
+            ycursor0:       0.000000
+            ycursor1:       0.000000
+            areas:
+                area39:
+                    id: 39
+    splitters: 
+        split45: 
+            id:     45
+            dir:    v
+            split:  630
+            child0: 46
+            child1: 0
+        split46: 
+            id:     46
+            dir:    h
+            split:  1148
+            child0: 43
+            child1: 47
+        split47: 
+            id:     47
+            dir:    v
+            split:  464
+            child0: 44
+            child1: 42
+    top: 45
