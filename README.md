@@ -179,6 +179,9 @@ Source: Teledyne LeCroy WaveRunner 8404M-MS
 
 Source: Teledyne LeCroy WaveSurfer 3034
 
+NOTE: The signal generator for this test is set up incorrectly, so one of the phases is 45 rather than 90 degrees
+offset from the others.
+
 * Downconvert
 * FIR Filter
 * Phase
