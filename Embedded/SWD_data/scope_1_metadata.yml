@@ -1,0 +1,1151 @@
+waveforms:
+    wfm1:
+        timestamp: 1601796862
+        time_fsec: 314863288000000
+        id:        1
+        channels:
+            ch5s0:
+                format:       sparsev1
+                index:        5
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+            ch7s0:
+                format:       sparsev1
+                index:        7
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+            ch6s0:
+                format:       sparsev1
+                index:        6
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+    wfm2:
+        timestamp: 1601796862
+        time_fsec: 515902192000000
+        id:        2
+        channels:
+            ch5s0:
+                format:       sparsev1
+                index:        5
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+            ch7s0:
+                format:       sparsev1
+                index:        7
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+            ch6s0:
+                format:       sparsev1
+                index:        6
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+    wfm3:
+        timestamp: 1601796862
+        time_fsec: 716951901000000
+        id:        3
+        channels:
+            ch5s0:
+                format:       sparsev1
+                index:        5
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+            ch7s0:
+                format:       sparsev1
+                index:        7
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+            ch6s0:
+                format:       sparsev1
+                index:        6
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+    wfm4:
+        timestamp: 1601796862
+        time_fsec: 918072536000000
+        id:        4
+        channels:
+            ch5s0:
+                format:       sparsev1
+                index:        5
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+            ch7s0:
+                format:       sparsev1
+                index:        7
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+            ch6s0:
+                format:       sparsev1
+                index:        6
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+    wfm5:
+        timestamp: 1601796863
+        time_fsec: 118965154000000
+        id:        5
+        channels:
+            ch5s0:
+                format:       sparsev1
+                index:        5
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+            ch7s0:
+                format:       sparsev1
+                index:        7
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+            ch6s0:
+                format:       sparsev1
+                index:        6
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+    wfm6:
+        timestamp: 1601796863
+        time_fsec: 319929530000000
+        id:        6
+        channels:
+            ch5s0:
+                format:       sparsev1
+                index:        5
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+            ch7s0:
+                format:       sparsev1
+                index:        7
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+            ch6s0:
+                format:       sparsev1
+                index:        6
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+    wfm7:
+        timestamp: 1601796863
+        time_fsec: 520953750000000
+        id:        7
+        channels:
+            ch5s0:
+                format:       sparsev1
+                index:        5
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+            ch7s0:
+                format:       sparsev1
+                index:        7
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+            ch6s0:
+                format:       sparsev1
+                index:        6
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+    wfm8:
+        timestamp: 1601796863
+        time_fsec: 721894576000000
+        id:        8
+        channels:
+            ch5s0:
+                format:       sparsev1
+                index:        5
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+            ch7s0:
+                format:       sparsev1
+                index:        7
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+            ch6s0:
+                format:       sparsev1
+                index:        6
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+    wfm9:
+        timestamp: 1601796863
+        time_fsec: 922800771000000
+        id:        9
+        channels:
+            ch5s0:
+                format:       sparsev1
+                index:        5
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+            ch7s0:
+                format:       sparsev1
+                index:        7
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+            ch6s0:
+                format:       sparsev1
+                index:        6
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+    wfm10:
+        timestamp: 1601796864
+        time_fsec: 119986382000000
+        id:        10
+        channels:
+            ch5s0:
+                format:       sparsev1
+                index:        5
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+            ch7s0:
+                format:       sparsev1
+                index:        7
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+            ch6s0:
+                format:       sparsev1
+                index:        6
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+    wfm11:
+        timestamp: 1601796864
+        time_fsec: 341705841000000
+        id:        11
+        channels:
+            ch5s0:
+                format:       sparsev1
+                index:        5
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+            ch7s0:
+                format:       sparsev1
+                index:        7
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+            ch6s0:
+                format:       sparsev1
+                index:        6
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+    wfm12:
+        timestamp: 1601796864
+        time_fsec: 542781039000000
+        id:        12
+        channels:
+            ch5s0:
+                format:       sparsev1
+                index:        5
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+            ch7s0:
+                format:       sparsev1
+                index:        7
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+            ch6s0:
+                format:       sparsev1
+                index:        6
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+    wfm13:
+        timestamp: 1601796864
+        time_fsec: 743810246000000
+        id:        13
+        channels:
+            ch5s0:
+                format:       sparsev1
+                index:        5
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+            ch7s0:
+                format:       sparsev1
+                index:        7
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+            ch6s0:
+                format:       sparsev1
+                index:        6
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+    wfm14:
+        timestamp: 1601796864
+        time_fsec: 945089634000000
+        id:        14
+        channels:
+            ch5s0:
+                format:       sparsev1
+                index:        5
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+            ch7s0:
+                format:       sparsev1
+                index:        7
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+            ch6s0:
+                format:       sparsev1
+                index:        6
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+    wfm15:
+        timestamp: 1601796865
+        time_fsec: 157007412000000
+        id:        15
+        channels:
+            ch5s0:
+                format:       sparsev1
+                index:        5
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+            ch7s0:
+                format:       sparsev1
+                index:        7
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+            ch6s0:
+                format:       sparsev1
+                index:        6
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+    wfm16:
+        timestamp: 1601796865
+        time_fsec: 358047701000000
+        id:        16
+        channels:
+            ch5s0:
+                format:       sparsev1
+                index:        5
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+            ch7s0:
+                format:       sparsev1
+                index:        7
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+            ch6s0:
+                format:       sparsev1
+                index:        6
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+    wfm17:
+        timestamp: 1601796865
+        time_fsec: 559601651000000
+        id:        17
+        channels:
+            ch5s0:
+                format:       sparsev1
+                index:        5
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+            ch7s0:
+                format:       sparsev1
+                index:        7
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+            ch6s0:
+                format:       sparsev1
+                index:        6
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+    wfm18:
+        timestamp: 1601796865
+        time_fsec: 760541092000000
+        id:        18
+        channels:
+            ch5s0:
+                format:       sparsev1
+                index:        5
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+            ch7s0:
+                format:       sparsev1
+                index:        7
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+            ch6s0:
+                format:       sparsev1
+                index:        6
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+    wfm19:
+        timestamp: 1601796865
+        time_fsec: 961545641000000
+        id:        19
+        channels:
+            ch5s0:
+                format:       sparsev1
+                index:        5
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+            ch7s0:
+                format:       sparsev1
+                index:        7
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+            ch6s0:
+                format:       sparsev1
+                index:        6
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+    wfm20:
+        timestamp: 1601796866
+        time_fsec: 162574017000000
+        id:        20
+        channels:
+            ch5s0:
+                format:       sparsev1
+                index:        5
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+            ch7s0:
+                format:       sparsev1
+                index:        7
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+            ch6s0:
+                format:       sparsev1
+                index:        6
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+    wfm21:
+        timestamp: 1601796866
+        time_fsec: 363663899000000
+        id:        21
+        channels:
+            ch5s0:
+                format:       sparsev1
+                index:        5
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+            ch7s0:
+                format:       sparsev1
+                index:        7
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+            ch6s0:
+                format:       sparsev1
+                index:        6
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+    wfm22:
+        timestamp: 1601796866
+        time_fsec: 564644898000000
+        id:        22
+        channels:
+            ch5s0:
+                format:       sparsev1
+                index:        5
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+            ch7s0:
+                format:       sparsev1
+                index:        7
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+            ch6s0:
+                format:       sparsev1
+                index:        6
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+    wfm23:
+        timestamp: 1601796866
+        time_fsec: 765579075000000
+        id:        23
+        channels:
+            ch5s0:
+                format:       sparsev1
+                index:        5
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+            ch7s0:
+                format:       sparsev1
+                index:        7
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+            ch6s0:
+                format:       sparsev1
+                index:        6
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+    wfm24:
+        timestamp: 1601796866
+        time_fsec: 966665910000000
+        id:        24
+        channels:
+            ch5s0:
+                format:       sparsev1
+                index:        5
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+            ch7s0:
+                format:       sparsev1
+                index:        7
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+            ch6s0:
+                format:       sparsev1
+                index:        6
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+    wfm25:
+        timestamp: 1601796867
+        time_fsec: 167715896000000
+        id:        25
+        channels:
+            ch5s0:
+                format:       sparsev1
+                index:        5
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+            ch7s0:
+                format:       sparsev1
+                index:        7
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+            ch6s0:
+                format:       sparsev1
+                index:        6
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+    wfm26:
+        timestamp: 1601796867
+        time_fsec: 368724047000000
+        id:        26
+        channels:
+            ch5s0:
+                format:       sparsev1
+                index:        5
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+            ch7s0:
+                format:       sparsev1
+                index:        7
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+            ch6s0:
+                format:       sparsev1
+                index:        6
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+    wfm27:
+        timestamp: 1601796867
+        time_fsec: 569655730000000
+        id:        27
+        channels:
+            ch5s0:
+                format:       sparsev1
+                index:        5
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+            ch7s0:
+                format:       sparsev1
+                index:        7
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+            ch6s0:
+                format:       sparsev1
+                index:        6
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+    wfm28:
+        timestamp: 1601796893
+        time_fsec: 602113927000000
+        id:        28
+        channels:
+            ch5s0:
+                format:       sparsev1
+                index:        5
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+            ch7s0:
+                format:       sparsev1
+                index:        7
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+            ch6s0:
+                format:       sparsev1
+                index:        6
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+    wfm29:
+        timestamp: 1601796894
+        time_fsec: 305658939000000
+        id:        29
+        channels:
+            ch5s0:
+                format:       sparsev1
+                index:        5
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+            ch7s0:
+                format:       sparsev1
+                index:        7
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+            ch6s0:
+                format:       sparsev1
+                index:        6
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+    wfm30:
+        timestamp: 1601796895
+        time_fsec: 9264350000000
+        id:        30
+        channels:
+            ch5s0:
+                format:       sparsev1
+                index:        5
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+            ch7s0:
+                format:       sparsev1
+                index:        7
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+            ch6s0:
+                format:       sparsev1
+                index:        6
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+    wfm31:
+        timestamp: 1601796895
+        time_fsec: 712697986000000
+        id:        31
+        channels:
+            ch5s0:
+                format:       sparsev1
+                index:        5
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+            ch7s0:
+                format:       sparsev1
+                index:        7
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+            ch6s0:
+                format:       sparsev1
+                index:        6
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+    wfm32:
+        timestamp: 1601796896
+        time_fsec: 416192851000000
+        id:        32
+        channels:
+            ch5s0:
+                format:       sparsev1
+                index:        5
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+            ch7s0:
+                format:       sparsev1
+                index:        7
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+            ch6s0:
+                format:       sparsev1
+                index:        6
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+    wfm33:
+        timestamp: 1601796897
+        time_fsec: 119707110000000
+        id:        33
+        channels:
+            ch5s0:
+                format:       sparsev1
+                index:        5
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+            ch7s0:
+                format:       sparsev1
+                index:        7
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+            ch6s0:
+                format:       sparsev1
+                index:        6
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+    wfm34:
+        timestamp: 1601796897
+        time_fsec: 823053750000000
+        id:        34
+        channels:
+            ch5s0:
+                format:       sparsev1
+                index:        5
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+            ch7s0:
+                format:       sparsev1
+                index:        7
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+            ch6s0:
+                format:       sparsev1
+                index:        6
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+    wfm35:
+        timestamp: 1601796898
+        time_fsec: 526721221000000
+        id:        35
+        channels:
+            ch5s0:
+                format:       sparsev1
+                index:        5
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+            ch7s0:
+                format:       sparsev1
+                index:        7
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+            ch6s0:
+                format:       sparsev1
+                index:        6
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+    wfm36:
+        timestamp: 1601796899
+        time_fsec: 230221628000000
+        id:        36
+        channels:
+            ch5s0:
+                format:       sparsev1
+                index:        5
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+            ch7s0:
+                format:       sparsev1
+                index:        7
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+            ch6s0:
+                format:       sparsev1
+                index:        6
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+    wfm37:
+        timestamp: 1601796899
+        time_fsec: 933733116000000
+        id:        37
+        channels:
+            ch5s0:
+                format:       sparsev1
+                index:        5
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+            ch7s0:
+                format:       sparsev1
+                index:        7
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+            ch6s0:
+                format:       sparsev1
+                index:        6
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+    wfm38:
+        timestamp: 1601796900
+        time_fsec: 637454059000000
+        id:        38
+        channels:
+            ch5s0:
+                format:       sparsev1
+                index:        5
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+            ch7s0:
+                format:       sparsev1
+                index:        7
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+            ch6s0:
+                format:       sparsev1
+                index:        6
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+    wfm39:
+        timestamp: 1601796901
+        time_fsec: 340842258000000
+        id:        39
+        channels:
+            ch5s0:
+                format:       sparsev1
+                index:        5
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+            ch7s0:
+                format:       sparsev1
+                index:        7
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+            ch6s0:
+                format:       sparsev1
+                index:        6
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+    wfm40:
+        timestamp: 1601796902
+        time_fsec: 45643995000000
+        id:        40
+        channels:
+            ch5s0:
+                format:       sparsev1
+                index:        5
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+            ch7s0:
+                format:       sparsev1
+                index:        7
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+            ch6s0:
+                format:       sparsev1
+                index:        6
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+    wfm41:
+        timestamp: 1601796902
+        time_fsec: 849345239000000
+        id:        41
+        channels:
+            ch5s0:
+                format:       sparsev1
+                index:        5
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+            ch7s0:
+                format:       sparsev1
+                index:        7
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+            ch6s0:
+                format:       sparsev1
+                index:        6
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+    wfm42:
+        timestamp: 1601796903
+        time_fsec: 552590200000000
+        id:        42
+        channels:
+            ch5s0:
+                format:       sparsev1
+                index:        5
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+            ch7s0:
+                format:       sparsev1
+                index:        7
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+            ch6s0:
+                format:       sparsev1
+                index:        6
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+    wfm43:
+        timestamp: 1601796904
+        time_fsec: 301130462000000
+        id:        43
+        channels:
+            ch5s0:
+                format:       sparsev1
+                index:        5
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+            ch7s0:
+                format:       sparsev1
+                index:        7
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+            ch6s0:
+                format:       sparsev1
+                index:        6
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+    wfm44:
+        timestamp: 1601796905
+        time_fsec: 104983810000000
+        id:        44
+        channels:
+            ch5s0:
+                format:       sparsev1
+                index:        5
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+            ch7s0:
+                format:       sparsev1
+                index:        7
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+            ch6s0:
+                format:       sparsev1
+                index:        6
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+    wfm45:
+        timestamp: 1601796905
+        time_fsec: 885659222000000
+        id:        45
+        channels:
+            ch5s0:
+                format:       sparsev1
+                index:        5
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+            ch7s0:
+                format:       sparsev1
+                index:        7
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+            ch6s0:
+                format:       sparsev1
+                index:        6
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+    wfm46:
+        timestamp: 1601796906
+        time_fsec: 589239974000000
+        id:        46
+        channels:
+            ch5s0:
+                format:       sparsev1
+                index:        5
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+            ch7s0:
+                format:       sparsev1
+                index:        7
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+            ch6s0:
+                format:       sparsev1
+                index:        6
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+    wfm47:
+        timestamp: 1601796907
+        time_fsec: 360971194000000
+        id:        47
+        channels:
+            ch5s0:
+                format:       sparsev1
+                index:        5
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+            ch7s0:
+                format:       sparsev1
+                index:        7
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+            ch6s0:
+                format:       sparsev1
+                index:        6
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+    wfm48:
+        timestamp: 1601796908
+        time_fsec: 146771584000000
+        id:        48
+        channels:
+            ch5s0:
+                format:       sparsev1
+                index:        5
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+            ch7s0:
+                format:       sparsev1
+                index:        7
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+            ch6s0:
+                format:       sparsev1
+                index:        6
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+    wfm49:
+        timestamp: 1601796908
+        time_fsec: 926517197000000
+        id:        49
+        channels:
+            ch5s0:
+                format:       sparsev1
+                index:        5
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+            ch7s0:
+                format:       sparsev1
+                index:        7
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+            ch6s0:
+                format:       sparsev1
+                index:        6
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+    wfm50:
+        timestamp: 1601796909
+        time_fsec: 609098227000000
+        id:        50
+        channels:
+            ch5s0:
+                format:       sparsev1
+                index:        5
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+            ch7s0:
+                format:       sparsev1
+                index:        7
+                stream:       0
+                timescale:    800000
+                trigphase:    0
+            ch6s0:
+                format:       sparsev1
+                index:        6
+                stream:       0
+                timescale:    800000
+                trigphase:    0

@@ -43,13 +43,12 @@ correctly flags this as a problem.
 * 1-Wire
 * Threshold
 
-### I2CEEprom.scopesession
+### SWD.scopesession
 
 Source: Teledyne LeCroy WaveRunner 8404M-MS
 
-* Threshold
-* I2C
-* I2C EEPROM
+* SWD
+* SWD MEM-AP
 
 ## Memory
 
@@ -71,6 +70,14 @@ The DUT is an embedded device that runs DDR3 in DLL-off mode at 250 MT/s (125 MH
 
 * Threshold
 * DDR3 Command Bus
+
+### I2CEEprom.scopesession
+
+Source: Teledyne LeCroy WaveRunner 8404M-MS
+
+* Threshold
+* I2C
+* I2C EEPROM
 
 ### SDCard.scopesession
 
