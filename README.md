@@ -126,6 +126,13 @@ Source: Teledyne LeCroy SDA 816Zi
 * Ethernet Autonegotiation
 * Subtract
 
+### MDIO.scopesession
+
+Source: Teledyne LeCroy HDO9204
+
+* Threshold
+* MDIO
+
 ## PC
 
 ### HDMI.scopesession
