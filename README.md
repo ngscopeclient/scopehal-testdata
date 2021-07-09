@@ -27,7 +27,7 @@ This is a placeholder dataset containing a waveform but no decodes as the ARINC 
 
 ### MIL-STD-1553.scopesession
 
-Source: Digilent ADP3450
+Source: Digilent ADP3450 (via CSV import)
 
 * MIL-STD-1553
 
