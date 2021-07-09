@@ -1,0 +1,370 @@
+instruments:
+    scope1:
+        id:             1
+        nick:           "wr3"
+        name:           "WS3034"
+        vendor:         "LECROY"
+        serial:         "LCRY3705N16444"
+        transport:      "null"
+        args:           ""
+        driver:         "mock"
+        rate:           1
+        depth:          1
+        interleave:     0
+        channels:
+            ch0:
+                id:          2
+                index:       0
+                color:       "#ffff00"
+                nick:        "C1"
+                name:        "C1"
+                type:        analog
+                enabled:     1
+                attenuation: 1.000000
+                bwlimit:     0
+                vrange:      4.000000
+                offset:      0.000000
+                coupling:    dc_50
+            ch1:
+                id:          3
+                index:       1
+                color:       "#ff6abc"
+                nick:        "C2"
+                name:        "C2"
+                type:        analog
+                enabled:     0
+                attenuation: 1.000000
+                bwlimit:     0
+                vrange:      0.400000
+                offset:      0.000000
+                coupling:    dc_1M
+            ch2:
+                id:          4
+                index:       2
+                color:       "#00ffff"
+                nick:        "C3"
+                name:        "C3"
+                type:        analog
+                enabled:     0
+                attenuation: 1.000000
+                bwlimit:     0
+                vrange:      0.400000
+                offset:      0.000000
+                coupling:    dc_1M
+            ch3:
+                id:          5
+                index:       3
+                color:       "#00c100"
+                nick:        "C4"
+                name:        "C4"
+                type:        analog
+                enabled:     0
+                attenuation: 1.000000
+                bwlimit:     0
+                vrange:      0.400000
+                offset:      0.000000
+                coupling:    dc_1M
+            ch4:
+                id:          6
+                index:       4
+                color:       ""
+                nick:        "Ext"
+                name:        "Ext"
+                type:        trigger
+                enabled:     0
+            ch5:
+                id:          7
+                index:       5
+                color:       "#e31a1c"
+                nick:        "D0"
+                name:        "D0"
+                type:        digital
+                width:       1
+                thresh:      0.500000
+                hys:         0.100000
+                enabled:     0
+            ch6:
+                id:          8
+                index:       6
+                color:       "#fdbf6f"
+                nick:        "D1"
+                name:        "D1"
+                type:        digital
+                width:       1
+                thresh:      0.500000
+                hys:         0.100000
+                enabled:     0
+            ch7:
+                id:          9
+                index:       7
+                color:       "#ff7f00"
+                nick:        "D2"
+                name:        "D2"
+                type:        digital
+                width:       1
+                thresh:      0.500000
+                hys:         0.100000
+                enabled:     0
+            ch8:
+                id:          10
+                index:       8
+                color:       "#cab2d6"
+                nick:        "D3"
+                name:        "D3"
+                type:        digital
+                width:       1
+                thresh:      0.500000
+                hys:         0.100000
+                enabled:     0
+            ch9:
+                id:          11
+                index:       9
+                color:       "#6a3d9a"
+                nick:        "D4"
+                name:        "D4"
+                type:        digital
+                width:       1
+                thresh:      0.500000
+                hys:         0.100000
+                enabled:     0
+            ch10:
+                id:          12
+                index:       10
+                color:       "#ffff99"
+                nick:        "D5"
+                name:        "D5"
+                type:        digital
+                width:       1
+                thresh:      0.500000
+                hys:         0.100000
+                enabled:     0
+            ch11:
+                id:          13
+                index:       11
+                color:       "#b15928"
+                nick:        "D6"
+                name:        "D6"
+                type:        digital
+                width:       1
+                thresh:      0.500000
+                hys:         0.100000
+                enabled:     0
+            ch12:
+                id:          14
+                index:       12
+                color:       "#a6cee3"
+                nick:        "D7"
+                name:        "D7"
+                type:        digital
+                width:       1
+                thresh:      0.500000
+                hys:         0.100000
+                enabled:     0
+            ch13:
+                id:          15
+                index:       13
+                color:       "#1f78b4"
+                nick:        "D8"
+                name:        "D8"
+                type:        digital
+                width:       1
+                thresh:      0.500000
+                hys:         0.100000
+                enabled:     0
+            ch14:
+                id:          16
+                index:       14
+                color:       "#b2df8a"
+                nick:        "D9"
+                name:        "D9"
+                type:        digital
+                width:       1
+                thresh:      0.500000
+                hys:         0.100000
+                enabled:     0
+            ch15:
+                id:          17
+                index:       15
+                color:       "#33a02c"
+                nick:        "D10"
+                name:        "D10"
+                type:        digital
+                width:       1
+                thresh:      0.500000
+                hys:         0.100000
+                enabled:     0
+            ch16:
+                id:          18
+                index:       16
+                color:       "#fb9a99"
+                nick:        "D11"
+                name:        "D11"
+                type:        digital
+                width:       1
+                thresh:      0.500000
+                hys:         0.100000
+                enabled:     0
+            ch17:
+                id:          19
+                index:       17
+                color:       "#e31a1c"
+                nick:        "D12"
+                name:        "D12"
+                type:        digital
+                width:       1
+                thresh:      0.500000
+                hys:         0.100000
+                enabled:     0
+            ch18:
+                id:          20
+                index:       18
+                color:       "#fdbf6f"
+                nick:        "D13"
+                name:        "D13"
+                type:        digital
+                width:       1
+                thresh:      0.500000
+                hys:         0.100000
+                enabled:     0
+            ch19:
+                id:          21
+                index:       19
+                color:       "#ff7f00"
+                nick:        "D14"
+                name:        "D14"
+                type:        digital
+                width:       1
+                thresh:      0.500000
+                hys:         0.100000
+                enabled:     0
+            ch20:
+                id:          22
+                index:       20
+                color:       "#cab2d6"
+                nick:        "D15"
+                name:        "D15"
+                type:        digital
+                width:       1
+                thresh:      0.500000
+                hys:         0.100000
+                enabled:     0
+        trigger:
+            id:              23
+            inputs:
+                din:                 2/0
+            parameters:
+                Edge:                "Rising"
+                Level:               0 mV
+            type:            Edge
+decodes:
+    filter24:
+        id:              24
+        inputs:
+            RF:                  2/0
+        parameters:
+            LO Frequency:        100 MHz
+        protocol:        "Downconvert"
+        color:           "#a6a6cecee3e3"
+        nick:            "Downconvert(C1, 100 MHz)"
+        name:            "Downconvert(C1, 100 MHz)"
+        vrange:          4.000000
+        offset:          0.000000
+    filter25:
+        id:              25
+        inputs:
+            in:                  24/1
+        parameters:
+            Filter Type:         "Low pass"
+            Frequency High:      2 MHz
+            Frequency Low:       0 mHz
+            Length:              0 mS
+            Stopband Attenuation: 60 dB
+        protocol:        "FIR Filter"
+        color:           "#1f1f7878b4b4"
+        nick:            "Q"
+        name:            "LPF(Downconvert(C1, 100 MHz).Q, 2 MHz)"
+        vrange:          1.087170
+        offset:          0.038841
+    filter26:
+        id:              26
+        inputs:
+            in:                  24/0
+        parameters:
+            Filter Type:         "Low pass"
+            Frequency High:      2 MHz
+            Frequency Low:       0 mHz
+            Length:              0 mS
+            Stopband Attenuation: 60 dB
+        protocol:        "FIR Filter"
+        color:           "#b2b2dfdf8a8a"
+        nick:            "I"
+        name:            "LPF(Downconvert(C1, 100 MHz).I, 2 MHz)"
+        vrange:          1.183680
+        offset:          -0.000094
+    filter27:
+        id:              27
+        inputs:
+            din:                 2/0
+        parameters:
+            Center Frequency:    100 MHz
+            Frequency Mode:      "Auto"
+        protocol:        "Phase"
+        color:           "#a6cee3"
+        nick:            "Phase(C1)"
+        name:            "Phase(C1)"
+        vrange:          370.000000
+        offset:          0.000000
+ui_config:
+    window:
+        width: 1920
+        height: 1018
+    areas:
+        area28:
+            id:          28
+            persistence: 0
+            channel:     2
+            stream:      0
+        area29:
+            id:          29
+            persistence: 0
+            channel:     26
+            stream:      0
+        area30:
+            id:          30
+            persistence: 0
+            channel:     27
+            stream:      0
+        area31:
+            id:          31
+            persistence: 0
+            channel:     25
+            stream:      0
+    groups: 
+        group32:
+            id:             32
+            name:           "Waveform Group 1"
+            timebaseResolution: fs
+            pixelsPerXUnit: 1.002431e-08
+            xAxisOffset:    2167021568
+            cursorConfig:   x_single
+            xcursor0:       37143829140
+            xcursor1:       0
+            ycursor0:       0.000000
+            ycursor1:       0.000000
+            areas:
+                area28:
+                    id: 28
+                area30:
+                    id: 30
+                area29:
+                    id: 29
+                area31:
+                    id: 31
+    splitters: 
+        split33: 
+            id:     33
+            dir:    v
+            split:  0
+            child0: 32
+            child1: 0
+    top: 33

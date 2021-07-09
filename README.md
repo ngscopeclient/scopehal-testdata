@@ -174,3 +174,11 @@ Source: Teledyne LeCroy WaveRunner 8404M-MS
 
 * FFT
 * FIR Filter
+
+### QPSK.scopesession
+
+Source: Teledyne LeCroy WaveSurfer 3034
+
+* Downconvert
+* FIR Filter
+* Phase
