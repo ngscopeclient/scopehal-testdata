@@ -71,6 +71,12 @@ The DUT is an embedded device that runs DDR3 in DLL-off mode at 250 MT/s (125 MH
 * Threshold
 * DDR3 Command Bus
 
+### HyperRAM.scopesession
+
+Source: Agilent MSO6034A
+
+* HyperRAM
+
 ### I2CEEprom.scopesession
 
 Source: Teledyne LeCroy WaveRunner 8404M-MS
