@@ -1,0 +1,1516 @@
+waveforms:
+    wfm1:
+        timestamp: 1635544160
+        time_fsec: 563558816909790
+        id:        1
+        channels:
+            ch5s0:
+                format:       sparsev1
+                index:        5
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch6s0:
+                format:       sparsev1
+                index:        6
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch7s0:
+                format:       sparsev1
+                index:        7
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch8s0:
+                format:       sparsev1
+                index:        8
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch9s0:
+                format:       sparsev1
+                index:        9
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch10s0:
+                format:       sparsev1
+                index:        10
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch11s0:
+                format:       sparsev1
+                index:        11
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch12s0:
+                format:       sparsev1
+                index:        12
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch13s0:
+                format:       sparsev1
+                index:        13
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch14s0:
+                format:       sparsev1
+                index:        14
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch15s0:
+                format:       sparsev1
+                index:        15
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch16s0:
+                format:       sparsev1
+                index:        16
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch17s0:
+                format:       sparsev1
+                index:        17
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch18s0:
+                format:       sparsev1
+                index:        18
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch19s0:
+                format:       sparsev1
+                index:        19
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch20s0:
+                format:       sparsev1
+                index:        20
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+    wfm2:
+        timestamp: 1635544160
+        time_fsec: 680148839950561
+        id:        2
+        channels:
+            ch5s0:
+                format:       sparsev1
+                index:        5
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch6s0:
+                format:       sparsev1
+                index:        6
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch7s0:
+                format:       sparsev1
+                index:        7
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch8s0:
+                format:       sparsev1
+                index:        8
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch9s0:
+                format:       sparsev1
+                index:        9
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch10s0:
+                format:       sparsev1
+                index:        10
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch11s0:
+                format:       sparsev1
+                index:        11
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch12s0:
+                format:       sparsev1
+                index:        12
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch13s0:
+                format:       sparsev1
+                index:        13
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch14s0:
+                format:       sparsev1
+                index:        14
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch15s0:
+                format:       sparsev1
+                index:        15
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch16s0:
+                format:       sparsev1
+                index:        16
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch17s0:
+                format:       sparsev1
+                index:        17
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch18s0:
+                format:       sparsev1
+                index:        18
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch19s0:
+                format:       sparsev1
+                index:        19
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch20s0:
+                format:       sparsev1
+                index:        20
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+    wfm3:
+        timestamp: 1635544160
+        time_fsec: 797002553939819
+        id:        3
+        channels:
+            ch5s0:
+                format:       sparsev1
+                index:        5
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch6s0:
+                format:       sparsev1
+                index:        6
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch7s0:
+                format:       sparsev1
+                index:        7
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch8s0:
+                format:       sparsev1
+                index:        8
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch9s0:
+                format:       sparsev1
+                index:        9
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch10s0:
+                format:       sparsev1
+                index:        10
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch11s0:
+                format:       sparsev1
+                index:        11
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch12s0:
+                format:       sparsev1
+                index:        12
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch13s0:
+                format:       sparsev1
+                index:        13
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch14s0:
+                format:       sparsev1
+                index:        14
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch15s0:
+                format:       sparsev1
+                index:        15
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch16s0:
+                format:       sparsev1
+                index:        16
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch17s0:
+                format:       sparsev1
+                index:        17
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch18s0:
+                format:       sparsev1
+                index:        18
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch19s0:
+                format:       sparsev1
+                index:        19
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch20s0:
+                format:       sparsev1
+                index:        20
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+    wfm4:
+        timestamp: 1635544160
+        time_fsec: 997111320495605
+        id:        4
+        channels:
+            ch5s0:
+                format:       sparsev1
+                index:        5
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch6s0:
+                format:       sparsev1
+                index:        6
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch7s0:
+                format:       sparsev1
+                index:        7
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch8s0:
+                format:       sparsev1
+                index:        8
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch9s0:
+                format:       sparsev1
+                index:        9
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch10s0:
+                format:       sparsev1
+                index:        10
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch11s0:
+                format:       sparsev1
+                index:        11
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch12s0:
+                format:       sparsev1
+                index:        12
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch13s0:
+                format:       sparsev1
+                index:        13
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch14s0:
+                format:       sparsev1
+                index:        14
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch15s0:
+                format:       sparsev1
+                index:        15
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch16s0:
+                format:       sparsev1
+                index:        16
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch17s0:
+                format:       sparsev1
+                index:        17
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch18s0:
+                format:       sparsev1
+                index:        18
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch19s0:
+                format:       sparsev1
+                index:        19
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch20s0:
+                format:       sparsev1
+                index:        20
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+    wfm5:
+        timestamp: 1635544161
+        time_fsec: 197830200195312
+        id:        5
+        channels:
+            ch5s0:
+                format:       sparsev1
+                index:        5
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch6s0:
+                format:       sparsev1
+                index:        6
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch7s0:
+                format:       sparsev1
+                index:        7
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch8s0:
+                format:       sparsev1
+                index:        8
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch9s0:
+                format:       sparsev1
+                index:        9
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch10s0:
+                format:       sparsev1
+                index:        10
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch11s0:
+                format:       sparsev1
+                index:        11
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch12s0:
+                format:       sparsev1
+                index:        12
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch13s0:
+                format:       sparsev1
+                index:        13
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch14s0:
+                format:       sparsev1
+                index:        14
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch15s0:
+                format:       sparsev1
+                index:        15
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch16s0:
+                format:       sparsev1
+                index:        16
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch17s0:
+                format:       sparsev1
+                index:        17
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch18s0:
+                format:       sparsev1
+                index:        18
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch19s0:
+                format:       sparsev1
+                index:        19
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch20s0:
+                format:       sparsev1
+                index:        20
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+    wfm6:
+        timestamp: 1635544161
+        time_fsec: 314561367034912
+        id:        6
+        channels:
+            ch5s0:
+                format:       sparsev1
+                index:        5
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch6s0:
+                format:       sparsev1
+                index:        6
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch7s0:
+                format:       sparsev1
+                index:        7
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch8s0:
+                format:       sparsev1
+                index:        8
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch9s0:
+                format:       sparsev1
+                index:        9
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch10s0:
+                format:       sparsev1
+                index:        10
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch11s0:
+                format:       sparsev1
+                index:        11
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch12s0:
+                format:       sparsev1
+                index:        12
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch13s0:
+                format:       sparsev1
+                index:        13
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch14s0:
+                format:       sparsev1
+                index:        14
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch15s0:
+                format:       sparsev1
+                index:        15
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch16s0:
+                format:       sparsev1
+                index:        16
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch17s0:
+                format:       sparsev1
+                index:        17
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch18s0:
+                format:       sparsev1
+                index:        18
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch19s0:
+                format:       sparsev1
+                index:        19
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch20s0:
+                format:       sparsev1
+                index:        20
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+    wfm7:
+        timestamp: 1635544161
+        time_fsec: 430716753005981
+        id:        7
+        channels:
+            ch5s0:
+                format:       sparsev1
+                index:        5
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch6s0:
+                format:       sparsev1
+                index:        6
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch7s0:
+                format:       sparsev1
+                index:        7
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch8s0:
+                format:       sparsev1
+                index:        8
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch9s0:
+                format:       sparsev1
+                index:        9
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch10s0:
+                format:       sparsev1
+                index:        10
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch11s0:
+                format:       sparsev1
+                index:        11
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch12s0:
+                format:       sparsev1
+                index:        12
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch13s0:
+                format:       sparsev1
+                index:        13
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch14s0:
+                format:       sparsev1
+                index:        14
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch15s0:
+                format:       sparsev1
+                index:        15
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch16s0:
+                format:       sparsev1
+                index:        16
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch17s0:
+                format:       sparsev1
+                index:        17
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch18s0:
+                format:       sparsev1
+                index:        18
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch19s0:
+                format:       sparsev1
+                index:        19
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch20s0:
+                format:       sparsev1
+                index:        20
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+    wfm8:
+        timestamp: 1635544161
+        time_fsec: 630826473236084
+        id:        8
+        channels:
+            ch5s0:
+                format:       sparsev1
+                index:        5
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch6s0:
+                format:       sparsev1
+                index:        6
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch7s0:
+                format:       sparsev1
+                index:        7
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch8s0:
+                format:       sparsev1
+                index:        8
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch9s0:
+                format:       sparsev1
+                index:        9
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch10s0:
+                format:       sparsev1
+                index:        10
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch11s0:
+                format:       sparsev1
+                index:        11
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch12s0:
+                format:       sparsev1
+                index:        12
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch13s0:
+                format:       sparsev1
+                index:        13
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch14s0:
+                format:       sparsev1
+                index:        14
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch15s0:
+                format:       sparsev1
+                index:        15
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch16s0:
+                format:       sparsev1
+                index:        16
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch17s0:
+                format:       sparsev1
+                index:        17
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch18s0:
+                format:       sparsev1
+                index:        18
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch19s0:
+                format:       sparsev1
+                index:        19
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch20s0:
+                format:       sparsev1
+                index:        20
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+    wfm9:
+        timestamp: 1635544161
+        time_fsec: 847609758377075
+        id:        9
+        channels:
+            ch5s0:
+                format:       sparsev1
+                index:        5
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch6s0:
+                format:       sparsev1
+                index:        6
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch7s0:
+                format:       sparsev1
+                index:        7
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch8s0:
+                format:       sparsev1
+                index:        8
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch9s0:
+                format:       sparsev1
+                index:        9
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch10s0:
+                format:       sparsev1
+                index:        10
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch11s0:
+                format:       sparsev1
+                index:        11
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch12s0:
+                format:       sparsev1
+                index:        12
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch13s0:
+                format:       sparsev1
+                index:        13
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch14s0:
+                format:       sparsev1
+                index:        14
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch15s0:
+                format:       sparsev1
+                index:        15
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch16s0:
+                format:       sparsev1
+                index:        16
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch17s0:
+                format:       sparsev1
+                index:        17
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch18s0:
+                format:       sparsev1
+                index:        18
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch19s0:
+                format:       sparsev1
+                index:        19
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch20s0:
+                format:       sparsev1
+                index:        20
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+    wfm10:
+        timestamp: 1635544162
+        time_fsec: 47697782516479
+        id:        10
+        channels:
+            ch5s0:
+                format:       sparsev1
+                index:        5
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch6s0:
+                format:       sparsev1
+                index:        6
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch7s0:
+                format:       sparsev1
+                index:        7
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch8s0:
+                format:       sparsev1
+                index:        8
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch9s0:
+                format:       sparsev1
+                index:        9
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch10s0:
+                format:       sparsev1
+                index:        10
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch11s0:
+                format:       sparsev1
+                index:        11
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch12s0:
+                format:       sparsev1
+                index:        12
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch13s0:
+                format:       sparsev1
+                index:        13
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch14s0:
+                format:       sparsev1
+                index:        14
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch15s0:
+                format:       sparsev1
+                index:        15
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch16s0:
+                format:       sparsev1
+                index:        16
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch17s0:
+                format:       sparsev1
+                index:        17
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch18s0:
+                format:       sparsev1
+                index:        18
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch19s0:
+                format:       sparsev1
+                index:        19
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch20s0:
+                format:       sparsev1
+                index:        20
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+    wfm11:
+        timestamp: 1635544162
+        time_fsec: 264527559280395
+        id:        11
+        channels:
+            ch5s0:
+                format:       sparsev1
+                index:        5
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch6s0:
+                format:       sparsev1
+                index:        6
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch7s0:
+                format:       sparsev1
+                index:        7
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch8s0:
+                format:       sparsev1
+                index:        8
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch9s0:
+                format:       sparsev1
+                index:        9
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch10s0:
+                format:       sparsev1
+                index:        10
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch11s0:
+                format:       sparsev1
+                index:        11
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch12s0:
+                format:       sparsev1
+                index:        12
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch13s0:
+                format:       sparsev1
+                index:        13
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch14s0:
+                format:       sparsev1
+                index:        14
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch15s0:
+                format:       sparsev1
+                index:        15
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch16s0:
+                format:       sparsev1
+                index:        16
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch17s0:
+                format:       sparsev1
+                index:        17
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch18s0:
+                format:       sparsev1
+                index:        18
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch19s0:
+                format:       sparsev1
+                index:        19
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch20s0:
+                format:       sparsev1
+                index:        20
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+    wfm12:
+        timestamp: 1635544162
+        time_fsec: 464560270309448
+        id:        12
+        channels:
+            ch5s0:
+                format:       sparsev1
+                index:        5
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch6s0:
+                format:       sparsev1
+                index:        6
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch7s0:
+                format:       sparsev1
+                index:        7
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch8s0:
+                format:       sparsev1
+                index:        8
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch9s0:
+                format:       sparsev1
+                index:        9
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch10s0:
+                format:       sparsev1
+                index:        10
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch11s0:
+                format:       sparsev1
+                index:        11
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch12s0:
+                format:       sparsev1
+                index:        12
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch13s0:
+                format:       sparsev1
+                index:        13
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch14s0:
+                format:       sparsev1
+                index:        14
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch15s0:
+                format:       sparsev1
+                index:        15
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch16s0:
+                format:       sparsev1
+                index:        16
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch17s0:
+                format:       sparsev1
+                index:        17
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch18s0:
+                format:       sparsev1
+                index:        18
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch19s0:
+                format:       sparsev1
+                index:        19
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch20s0:
+                format:       sparsev1
+                index:        20
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+    wfm13:
+        timestamp: 1635544162
+        time_fsec: 669795751571655
+        id:        13
+        channels:
+            ch5s0:
+                format:       sparsev1
+                index:        5
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch6s0:
+                format:       sparsev1
+                index:        6
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch7s0:
+                format:       sparsev1
+                index:        7
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch8s0:
+                format:       sparsev1
+                index:        8
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch9s0:
+                format:       sparsev1
+                index:        9
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch10s0:
+                format:       sparsev1
+                index:        10
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch11s0:
+                format:       sparsev1
+                index:        11
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch12s0:
+                format:       sparsev1
+                index:        12
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch13s0:
+                format:       sparsev1
+                index:        13
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch14s0:
+                format:       sparsev1
+                index:        14
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch15s0:
+                format:       sparsev1
+                index:        15
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch16s0:
+                format:       sparsev1
+                index:        16
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch17s0:
+                format:       sparsev1
+                index:        17
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch18s0:
+                format:       sparsev1
+                index:        18
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch19s0:
+                format:       sparsev1
+                index:        19
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch20s0:
+                format:       sparsev1
+                index:        20
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+    wfm14:
+        timestamp: 1635544162
+        time_fsec: 882396697998046
+        id:        14
+        channels:
+            ch5s0:
+                format:       sparsev1
+                index:        5
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch6s0:
+                format:       sparsev1
+                index:        6
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch7s0:
+                format:       sparsev1
+                index:        7
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch8s0:
+                format:       sparsev1
+                index:        8
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch9s0:
+                format:       sparsev1
+                index:        9
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch10s0:
+                format:       sparsev1
+                index:        10
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch11s0:
+                format:       sparsev1
+                index:        11
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch12s0:
+                format:       sparsev1
+                index:        12
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch13s0:
+                format:       sparsev1
+                index:        13
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch14s0:
+                format:       sparsev1
+                index:        14
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch15s0:
+                format:       sparsev1
+                index:        15
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch16s0:
+                format:       sparsev1
+                index:        16
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch17s0:
+                format:       sparsev1
+                index:        17
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch18s0:
+                format:       sparsev1
+                index:        18
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch19s0:
+                format:       sparsev1
+                index:        19
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch20s0:
+                format:       sparsev1
+                index:        20
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+    wfm15:
+        timestamp: 1635544163
+        time_fsec: 101884126663208
+        id:        15
+        channels:
+            ch5s0:
+                format:       sparsev1
+                index:        5
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch6s0:
+                format:       sparsev1
+                index:        6
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch7s0:
+                format:       sparsev1
+                index:        7
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch8s0:
+                format:       sparsev1
+                index:        8
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch9s0:
+                format:       sparsev1
+                index:        9
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch10s0:
+                format:       sparsev1
+                index:        10
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch11s0:
+                format:       sparsev1
+                index:        11
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch12s0:
+                format:       sparsev1
+                index:        12
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch13s0:
+                format:       sparsev1
+                index:        13
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch14s0:
+                format:       sparsev1
+                index:        14
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch15s0:
+                format:       sparsev1
+                index:        15
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch16s0:
+                format:       sparsev1
+                index:        16
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch17s0:
+                format:       sparsev1
+                index:        17
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch18s0:
+                format:       sparsev1
+                index:        18
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch19s0:
+                format:       sparsev1
+                index:        19
+                stream:       0
+                timescale:    1000000
+                trigphase:    0
+            ch20s0:
+                format:       sparsev1
+                index:        20
+                stream:       0
+                timescale:    1000000
+                trigphase:    0

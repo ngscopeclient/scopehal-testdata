@@ -1,0 +1,448 @@
+instruments:
+    scope1:
+        id:             1
+        nick:           "myscope"
+        name:           "MSO6034A"
+        vendor:         "AGILENT TECHNOLOGIES"
+        serial:         "MY4******3"
+        transport:      "lan"
+        args:           "192.168.1.1:5025"
+        driver:         "agilent"
+        rate:           2000000000
+        depth:          5000
+        interleave:     0
+        channels:
+            ch0:
+                id:          2
+                index:       0
+                color:       "#ffff00"
+                nick:        "CHAN1"
+                name:        "CHAN1"
+                type:        analog
+                enabled:     0
+                xunit:       "fs"
+                attenuation: 1.000000
+                bwlimit:     0
+                vrange:      40.000000
+                offset:      17.250000
+                yunit:       "V"
+                coupling:    dc_1M
+            ch1:
+                id:          3
+                index:       1
+                color:       "#32ff00"
+                nick:        "CHAN2"
+                name:        "CHAN2"
+                type:        analog
+                enabled:     0
+                xunit:       "fs"
+                attenuation: 10.000000
+                bwlimit:     0
+                vrange:      40.000000
+                offset:      13.437500
+                yunit:       "V"
+                coupling:    dc_1M
+            ch2:
+                id:          4
+                index:       2
+                color:       "#5578ff"
+                nick:        "CHAN3"
+                name:        "CHAN3"
+                type:        analog
+                enabled:     0
+                xunit:       "fs"
+                attenuation: 10.000000
+                bwlimit:     0
+                vrange:      40.000000
+                offset:      8.500000
+                yunit:       "V"
+                coupling:    dc_1M
+            ch3:
+                id:          5
+                index:       3
+                color:       "#ff0084"
+                nick:        "CHAN4"
+                name:        "CHAN4"
+                type:        analog
+                enabled:     0
+                xunit:       "fs"
+                attenuation: 1.000000
+                bwlimit:     0
+                vrange:      40.000000
+                offset:      4.250000
+                yunit:       "V"
+                coupling:    dc_1M
+            ch4:
+                id:          6
+                index:       4
+                color:       ""
+                nick:        "EX"
+                name:        "EX"
+                type:        trigger
+                enabled:     0
+                xunit:       "fs"
+            ch5:
+                id:          7
+                index:       5
+                color:       "#00ffff"
+                nick:        "DIG0"
+                name:        "DIG0"
+                type:        digital
+                width:       1
+                thresh:      0.500000
+                hys:         0.100000
+                enabled:     1
+                xunit:       "fs"
+            ch6:
+                id:          8
+                index:       6
+                color:       "#00ffff"
+                nick:        "DIG1"
+                name:        "DIG1"
+                type:        digital
+                width:       1
+                thresh:      0.500000
+                hys:         0.100000
+                enabled:     1
+                xunit:       "fs"
+            ch7:
+                id:          9
+                index:       7
+                color:       "#00ffff"
+                nick:        "DIG2"
+                name:        "DIG2"
+                type:        digital
+                width:       1
+                thresh:      0.500000
+                hys:         0.100000
+                enabled:     1
+                xunit:       "fs"
+            ch8:
+                id:          10
+                index:       8
+                color:       "#00ffff"
+                nick:        "DIG3"
+                name:        "DIG3"
+                type:        digital
+                width:       1
+                thresh:      0.500000
+                hys:         0.100000
+                enabled:     1
+                xunit:       "fs"
+            ch9:
+                id:          11
+                index:       9
+                color:       "#00ffff"
+                nick:        "DIG4"
+                name:        "DIG4"
+                type:        digital
+                width:       1
+                thresh:      0.500000
+                hys:         0.100000
+                enabled:     1
+                xunit:       "fs"
+            ch10:
+                id:          12
+                index:       10
+                color:       "#00ffff"
+                nick:        "DIG5"
+                name:        "DIG5"
+                type:        digital
+                width:       1
+                thresh:      0.500000
+                hys:         0.100000
+                enabled:     1
+                xunit:       "fs"
+            ch11:
+                id:          13
+                index:       11
+                color:       "#00ffff"
+                nick:        "DIG6"
+                name:        "DIG6"
+                type:        digital
+                width:       1
+                thresh:      0.500000
+                hys:         0.100000
+                enabled:     1
+                xunit:       "fs"
+            ch12:
+                id:          14
+                index:       12
+                color:       "#00ffff"
+                nick:        "DIG7"
+                name:        "DIG7"
+                type:        digital
+                width:       1
+                thresh:      0.500000
+                hys:         0.100000
+                enabled:     1
+                xunit:       "fs"
+            ch13:
+                id:          15
+                index:       13
+                color:       "#0000ffffffff"
+                nick:        "CS#"
+                name:        "DIG8"
+                type:        digital
+                width:       1
+                thresh:      0.500000
+                hys:         0.100000
+                enabled:     1
+                xunit:       "fs"
+            ch14:
+                id:          16
+                index:       14
+                color:       "#0000ffffffff"
+                nick:        "RESET"
+                name:        "DIG9"
+                type:        digital
+                width:       1
+                thresh:      0.500000
+                hys:         0.100000
+                enabled:     1
+                xunit:       "fs"
+            ch15:
+                id:          17
+                index:       15
+                color:       "#0000ffffffff"
+                nick:        "RWDS"
+                name:        "DIG10"
+                type:        digital
+                width:       1
+                thresh:      0.500000
+                hys:         0.100000
+                enabled:     1
+                xunit:       "fs"
+            ch16:
+                id:          18
+                index:       16
+                color:       "#0000ffffffff"
+                nick:        "CLK"
+                name:        "DIG11"
+                type:        digital
+                width:       1
+                thresh:      0.500000
+                hys:         0.100000
+                enabled:     1
+                xunit:       "fs"
+            ch17:
+                id:          19
+                index:       17
+                color:       "#0000ffffffff"
+                nick:        "CLK#"
+                name:        "DIG12"
+                type:        digital
+                width:       1
+                thresh:      0.500000
+                hys:         0.100000
+                enabled:     1
+                xunit:       "fs"
+            ch18:
+                id:          20
+                index:       18
+                color:       "#00ffff"
+                nick:        "DIG13"
+                name:        "DIG13"
+                type:        digital
+                width:       1
+                thresh:      0.500000
+                hys:         0.100000
+                enabled:     1
+                xunit:       "fs"
+            ch19:
+                id:          21
+                index:       19
+                color:       "#00ffff"
+                nick:        "DIG14"
+                name:        "DIG14"
+                type:        digital
+                width:       1
+                thresh:      0.500000
+                hys:         0.100000
+                enabled:     1
+                xunit:       "fs"
+            ch20:
+                id:          22
+                index:       20
+                color:       "#00ffff"
+                nick:        "DIG15"
+                name:        "DIG15"
+                type:        digital
+                width:       1
+                thresh:      0.500000
+                hys:         0.100000
+                enabled:     1
+                xunit:       "fs"
+        trigger:
+            id:              23
+            inputs:
+                din:                 15/0
+            parameters:
+                Edge:                "Falling"
+                Level:               1.4 V
+            type:            Edge
+decodes:
+    filter24:
+        id:              24
+        inputs:
+            clk:                 18/0
+            cs#:                 15/0
+            rwds:                17/0
+            dq0:                 7/0
+            dq1:                 8/0
+            dq2:                 9/0
+            dq3:                 10/0
+            dq4:                 11/0
+            dq5:                 12/0
+            dq6:                 13/0
+            dq7:                 14/0
+        parameters:
+            Initial Latency:     3 
+        protocol:        "HyperRAM"
+        color:           "#a6a6cecee3e3"
+        nick:            "HyperRAM(DIG0)"
+        name:            "HyperRAM(DIG0)"
+        vrange:          1.000000
+        offset:          0.000000
+ui_config:
+    window:
+        width: 2556
+        height: 1400
+    areas:
+        area25:
+            id:          25
+            persistence: 0
+            channel:     14
+            stream:      0
+        area26:
+            id:          26
+            persistence: 0
+            channel:     20
+            stream:      0
+        area27:
+            id:          27
+            persistence: 0
+            channel:     12
+            stream:      0
+        area28:
+            id:          28
+            persistence: 0
+            channel:     10
+            stream:      0
+        area29:
+            id:          29
+            persistence: 0
+            channel:     7
+            stream:      0
+            overlays:
+                overlay24:
+                    id:      24
+                    stream:  0
+        area30:
+            id:          30
+            persistence: 0
+            channel:     16
+            stream:      0
+        area31:
+            id:          31
+            persistence: 0
+            channel:     22
+            stream:      0
+        area32:
+            id:          32
+            persistence: 0
+            channel:     11
+            stream:      0
+        area33:
+            id:          33
+            persistence: 0
+            channel:     21
+            stream:      0
+        area34:
+            id:          34
+            persistence: 0
+            channel:     9
+            stream:      0
+        area35:
+            id:          35
+            persistence: 0
+            channel:     8
+            stream:      0
+        area36:
+            id:          36
+            persistence: 0
+            channel:     13
+            stream:      0
+        area37:
+            id:          37
+            persistence: 0
+            channel:     15
+            stream:      0
+        area38:
+            id:          38
+            persistence: 0
+            channel:     19
+            stream:      0
+        area39:
+            id:          39
+            persistence: 0
+            channel:     18
+            stream:      0
+        area40:
+            id:          40
+            persistence: 0
+            channel:     17
+            stream:      0
+    groups: 
+        group41:
+            id:             41
+            name:           "Waveform Group 1"
+            timebaseResolution: fs
+            pixelsPerXUnit: 4.389575e-06
+            xAxisOffset:    645280128
+            cursorConfig:   none
+            xcursor0:       0
+            xcursor1:       0
+            ycursor0:       0.000000
+            ycursor1:       0.000000
+            areas:
+                area29:
+                    id: 29
+                area35:
+                    id: 35
+                area34:
+                    id: 34
+                area28:
+                    id: 28
+                area32:
+                    id: 32
+                area27:
+                    id: 27
+                area36:
+                    id: 36
+                area25:
+                    id: 25
+                area37:
+                    id: 37
+                area30:
+                    id: 30
+                area40:
+                    id: 40
+                area39:
+                    id: 39
+                area38:
+                    id: 38
+                area26:
+                    id: 26
+                area33:
+                    id: 33
+                area31:
+                    id: 31
+    splitters: 
+        split42: 
+            id:     42
+            dir:    v
+            split:  0
+            child0: 41
+            child1: 0
+    top: 42
