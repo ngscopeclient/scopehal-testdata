@@ -1,0 +1,351 @@
+waveforms:
+  wfm0:
+    timestamp: 1696461914
+    time_fsec: 0
+    id: 0
+    pinned: false
+    label: ""
+    channels:
+      ch0s0:
+        index: 0
+        stream: 0
+        timescale: 100000000
+        trigphase: 0
+        flags: 0
+        format: densev1
+      ch1s0:
+        index: 1
+        stream: 0
+        timescale: 100000000
+        trigphase: 0
+        flags: 0
+        format: densev1
+      ch2s0:
+        index: 2
+        stream: 0
+        timescale: 100000000
+        trigphase: 0
+        flags: 0
+        format: densev1
+      ch3s0:
+        index: 3
+        stream: 0
+        timescale: 100000000
+        trigphase: 0
+        flags: 0
+        format: densev1
+  wfm1:
+    timestamp: 1696461925
+    time_fsec: 0
+    id: 1
+    pinned: false
+    label: ""
+    channels:
+      ch0s0:
+        index: 0
+        stream: 0
+        timescale: 100000000
+        trigphase: 0
+        flags: 0
+        format: densev1
+      ch1s0:
+        index: 1
+        stream: 0
+        timescale: 100000000
+        trigphase: 0
+        flags: 0
+        format: densev1
+      ch2s0:
+        index: 2
+        stream: 0
+        timescale: 100000000
+        trigphase: 0
+        flags: 0
+        format: densev1
+      ch3s0:
+        index: 3
+        stream: 0
+        timescale: 100000000
+        trigphase: 0
+        flags: 0
+        format: densev1
+  wfm2:
+    timestamp: 1696461928
+    time_fsec: 0
+    id: 2
+    pinned: false
+    label: ""
+    channels:
+      ch0s0:
+        index: 0
+        stream: 0
+        timescale: 100000000
+        trigphase: 0
+        flags: 0
+        format: densev1
+      ch1s0:
+        index: 1
+        stream: 0
+        timescale: 100000000
+        trigphase: 0
+        flags: 0
+        format: densev1
+      ch2s0:
+        index: 2
+        stream: 0
+        timescale: 100000000
+        trigphase: 0
+        flags: 0
+        format: densev1
+      ch3s0:
+        index: 3
+        stream: 0
+        timescale: 100000000
+        trigphase: 0
+        flags: 0
+        format: densev1
+  wfm3:
+    timestamp: 1696461930
+    time_fsec: 0
+    id: 3
+    pinned: false
+    label: ""
+    channels:
+      ch0s0:
+        index: 0
+        stream: 0
+        timescale: 100000000
+        trigphase: 0
+        flags: 0
+        format: densev1
+      ch1s0:
+        index: 1
+        stream: 0
+        timescale: 100000000
+        trigphase: 0
+        flags: 0
+        format: densev1
+      ch2s0:
+        index: 2
+        stream: 0
+        timescale: 100000000
+        trigphase: 0
+        flags: 0
+        format: densev1
+      ch3s0:
+        index: 3
+        stream: 0
+        timescale: 100000000
+        trigphase: 0
+        flags: 0
+        format: densev1
+  wfm4:
+    timestamp: 1696461931
+    time_fsec: 0
+    id: 4
+    pinned: false
+    label: ""
+    channels:
+      ch0s0:
+        index: 0
+        stream: 0
+        timescale: 100000000
+        trigphase: 0
+        flags: 0
+        format: densev1
+      ch1s0:
+        index: 1
+        stream: 0
+        timescale: 100000000
+        trigphase: 0
+        flags: 0
+        format: densev1
+      ch2s0:
+        index: 2
+        stream: 0
+        timescale: 100000000
+        trigphase: 0
+        flags: 0
+        format: densev1
+      ch3s0:
+        index: 3
+        stream: 0
+        timescale: 100000000
+        trigphase: 0
+        flags: 0
+        format: densev1
+  wfm5:
+    timestamp: 1696461933
+    time_fsec: 0
+    id: 5
+    pinned: false
+    label: ""
+    channels:
+      ch0s0:
+        index: 0
+        stream: 0
+        timescale: 100000000
+        trigphase: 0
+        flags: 0
+        format: densev1
+      ch1s0:
+        index: 1
+        stream: 0
+        timescale: 100000000
+        trigphase: 0
+        flags: 0
+        format: densev1
+      ch2s0:
+        index: 2
+        stream: 0
+        timescale: 100000000
+        trigphase: 0
+        flags: 0
+        format: densev1
+      ch3s0:
+        index: 3
+        stream: 0
+        timescale: 100000000
+        trigphase: 0
+        flags: 0
+        format: densev1
+  wfm6:
+    timestamp: 1696461934
+    time_fsec: 0
+    id: 6
+    pinned: false
+    label: ""
+    channels:
+      ch0s0:
+        index: 0
+        stream: 0
+        timescale: 100000000
+        trigphase: 0
+        flags: 0
+        format: densev1
+      ch1s0:
+        index: 1
+        stream: 0
+        timescale: 100000000
+        trigphase: 0
+        flags: 0
+        format: densev1
+      ch2s0:
+        index: 2
+        stream: 0
+        timescale: 100000000
+        trigphase: 0
+        flags: 0
+        format: densev1
+      ch3s0:
+        index: 3
+        stream: 0
+        timescale: 100000000
+        trigphase: 0
+        flags: 0
+        format: densev1
+  wfm7:
+    timestamp: 1696461936
+    time_fsec: 0
+    id: 7
+    pinned: false
+    label: ""
+    channels:
+      ch0s0:
+        index: 0
+        stream: 0
+        timescale: 100000000
+        trigphase: 0
+        flags: 0
+        format: densev1
+      ch1s0:
+        index: 1
+        stream: 0
+        timescale: 100000000
+        trigphase: 0
+        flags: 0
+        format: densev1
+      ch2s0:
+        index: 2
+        stream: 0
+        timescale: 100000000
+        trigphase: 0
+        flags: 0
+        format: densev1
+      ch3s0:
+        index: 3
+        stream: 0
+        timescale: 100000000
+        trigphase: 0
+        flags: 0
+        format: densev1
+  wfm8:
+    timestamp: 1696461938
+    time_fsec: 0
+    id: 8
+    pinned: false
+    label: ""
+    channels:
+      ch0s0:
+        index: 0
+        stream: 0
+        timescale: 100000000
+        trigphase: 0
+        flags: 0
+        format: densev1
+      ch1s0:
+        index: 1
+        stream: 0
+        timescale: 100000000
+        trigphase: 0
+        flags: 0
+        format: densev1
+      ch2s0:
+        index: 2
+        stream: 0
+        timescale: 100000000
+        trigphase: 0
+        flags: 0
+        format: densev1
+      ch3s0:
+        index: 3
+        stream: 0
+        timescale: 100000000
+        trigphase: 0
+        flags: 0
+        format: densev1
+  wfm9:
+    timestamp: 1696461946
+    time_fsec: 0
+    id: 9
+    pinned: false
+    label: ""
+    channels:
+      ch0s0:
+        index: 0
+        stream: 0
+        timescale: 100000000
+        trigphase: 0
+        flags: 0
+        format: densev1
+      ch1s0:
+        index: 1
+        stream: 0
+        timescale: 100000000
+        trigphase: 0
+        flags: 0
+        format: densev1
+      ch2s0:
+        index: 2
+        stream: 0
+        timescale: 100000000
+        trigphase: 0
+        flags: 0
+        format: densev1
+      ch3s0:
+        index: 3
+        stream: 0
+        timescale: 100000000
+        trigphase: 0
+        flags: 0
+        format: densev1
