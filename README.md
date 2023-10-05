@@ -50,6 +50,12 @@ Source: Teledyne LeCroy WaveRunner 8404M-MS
 * SWD
 * SWD MEM-AP
 
+### JTAG.scopesession
+
+Source: Siglent SDS2000X Plus
+
+* JTAG
+
 ### UART.scopesession
 
 Source: Siglent SDS2000X Plus

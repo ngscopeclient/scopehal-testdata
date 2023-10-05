@@ -1,0 +1,250 @@
+version: 2
+metadata:
+  appver: ngscopeclient 0.1-2c2634b
+  appdate: Oct  3 2023 11:19:29
+  created: 2023-10-04 04:27:42 PM
+instruments:
+  inst1:
+    id: 1
+    nick: sds2000x_plus
+    name: SDS2204X Plus
+    vendor: Siglent Technologies
+    serial: SDS2PEEC7R1015
+    transport: lan
+    args: 169.254.149.18:5025
+    driver: siglent
+    rate: 10000000
+    depth: 1000000
+    interleave: false
+    triggerpos: 50000000000000
+    channels:
+      ch0:
+        id: 2
+        index: 0
+        color: "#ffff00"
+        nick: C1
+        name: C1
+        type: analog
+        adcmode: 0
+        invert: false
+        enabled: 1
+        xunit: fs
+        attenuation: 1
+        bwlimit: 0
+        yunit: V
+        vrange: 5.76000023
+        offset: -1.5
+        coupling: dc_1M
+      ch1:
+        id: 3
+        index: 1
+        color: "#ff6abc"
+        nick: C2
+        name: C2
+        type: analog
+        adcmode: 0
+        invert: false
+        enabled: 1
+        xunit: fs
+        attenuation: 1
+        bwlimit: 0
+        yunit: V
+        vrange: 0.744000018
+        offset: -0.101000004
+        coupling: dc_1M
+      ch2:
+        id: 4
+        index: 2
+        color: "#00ffff"
+        nick: C3
+        name: C3
+        type: analog
+        adcmode: 0
+        invert: false
+        enabled: 1
+        xunit: fs
+        attenuation: 1
+        bwlimit: 0
+        yunit: V
+        vrange: 0.712000012
+        offset: -0.162
+        coupling: dc_1M
+      ch3:
+        id: 5
+        index: 3
+        color: "#00c100"
+        nick: C4
+        name: C4
+        type: analog
+        adcmode: 0
+        invert: false
+        enabled: 1
+        xunit: fs
+        attenuation: 1
+        bwlimit: 0
+        yunit: V
+        vrange: 0.776000023
+        offset: -0.107000001
+        coupling: dc_1M
+      ch4:
+        id: 6
+        index: 4
+        color: ""
+        nick: EX
+        name: EX
+        type: trigger
+        enabled: 0
+        xunit: fs
+    trigger:
+      inputs:
+        din: 2/0
+      parameters:
+        Edge: Rising
+        Level: 1.94 V
+      id: 7
+      type: Edge
+    triggerdeskew: 0
+    type: oscilloscope
+triggergroups:
+  group0:
+    primary: 1
+    secondaries: ~
+decodes:
+  filter12:
+    inputs:
+      TDI: 8/0
+      TDO: 9/0
+      TMS: 10/0
+      TCK: 11/0
+    parameters: ~
+    id: 12
+    protocol: JTAG
+    color: "#fb9a99"
+    nick: JTAG_1
+    name: JTAG_1
+  filter8:
+    inputs:
+      din: 5/0
+    parameters:
+      Hysteresis: 0 mV
+      Threshold: 150 mV
+    id: 8
+    protocol: Threshold
+    color: "#33a02c"
+    nick: Threshold_TDI
+    name: Threshold_4
+  filter11:
+    inputs:
+      din: 2/0
+    parameters:
+      Hysteresis: 0 mV
+      Threshold: 1.5 V
+    id: 11
+    protocol: Threshold
+    color: "#a6cee3"
+    nick: Threshold_TCK
+    name: Threshold_1
+  filter9:
+    inputs:
+      din: 3/0
+    parameters:
+      Hysteresis: 0 mV
+      Threshold: 150 mV
+    id: 9
+    protocol: Threshold
+    color: "#1f78b4"
+    nick: Threshold_TDO
+    name: Threshold_2
+  filter10:
+    inputs:
+      din: 4/0
+    parameters:
+      Hysteresis: 0 mV
+      Threshold: 150 mV
+    id: 10
+    protocol: Threshold
+    color: "#b2df8a"
+    nick: Threshold_TMS
+    name: Threshold_3
+ui_config:
+  areas:
+    area14:
+      id: 14
+      streams:
+        stream0:
+          persistence: false
+          channel: 2
+          stream: 0
+          colorRamp: eye-gradient-viridis
+        stream1:
+          persistence: false
+          channel: 11
+          stream: 0
+          colorRamp: eye-gradient-viridis
+        stream2:
+          persistence: false
+          channel: 12
+          stream: 0
+          colorRamp: eye-gradient-viridis
+    area15:
+      id: 15
+      streams:
+        stream0:
+          persistence: false
+          channel: 3
+          stream: 0
+          colorRamp: eye-gradient-viridis
+        stream1:
+          persistence: false
+          channel: 9
+          stream: 0
+          colorRamp: eye-gradient-viridis
+    area16:
+      id: 16
+      streams:
+        stream0:
+          persistence: false
+          channel: 4
+          stream: 0
+          colorRamp: eye-gradient-viridis
+        stream1:
+          persistence: false
+          channel: 10
+          stream: 0
+          colorRamp: eye-gradient-viridis
+    area17:
+      id: 17
+      streams:
+        stream0:
+          persistence: false
+          channel: 5
+          stream: 0
+          colorRamp: eye-gradient-viridis
+        stream1:
+          persistence: false
+          channel: 8
+          stream: 0
+          colorRamp: eye-gradient-viridis
+  groups:
+    group13:
+      timebaseResolution: fs
+      pixelsPerXUnit: 5.86575197e-08
+      xAxisOffset: 49995270806560
+      name: Waveform Group 1
+      cursorConfig: none
+      xcursor0: 0
+      xcursor1: 0
+      areas:
+        area14:
+          id: 14
+        area15:
+          id: 15
+        area16:
+          id: 16
+        area17:
+          id: 17
+  markers: ~
+  dialogs:
+    analyzers:
+      JTAG_1: 12
+    history: true
