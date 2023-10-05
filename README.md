@@ -55,6 +55,13 @@ Source: Teledyne LeCroy WaveRunner 8404M-MS
 Source: Siglent SDS2000X Plus
 
 * JTAG
+
+### UART.scopesession
+
+Source: Siglent SDS2000X Plus
+
+* Clock Recovery (UART)
+* UART
 * Threshold
 
 ## Memory
