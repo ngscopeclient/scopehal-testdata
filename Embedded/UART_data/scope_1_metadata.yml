@@ -1,0 +1,113 @@
+waveforms:
+  wfm0:
+    timestamp: 1696458040
+    time_fsec: 0
+    id: 0
+    pinned: false
+    label: ""
+    channels:
+      ch0s0:
+        index: 0
+        stream: 0
+        timescale: 25000000
+        trigphase: 0
+        flags: 0
+        format: densev1
+  wfm1:
+    timestamp: 1696458046
+    time_fsec: 0
+    id: 1
+    pinned: false
+    label: ""
+    channels:
+      ch0s0:
+        index: 0
+        stream: 0
+        timescale: 25000000
+        trigphase: 0
+        flags: 0
+        format: densev1
+  wfm2:
+    timestamp: 1696458051
+    time_fsec: 0
+    id: 2
+    pinned: false
+    label: ""
+    channels:
+      ch0s0:
+        index: 0
+        stream: 0
+        timescale: 25000000
+        trigphase: 0
+        flags: 0
+        format: densev1
+  wfm3:
+    timestamp: 1696458051
+    time_fsec: 0
+    id: 3
+    pinned: false
+    label: ""
+    channels:
+      ch0s0:
+        index: 0
+        stream: 0
+        timescale: 25000000
+        trigphase: 0
+        flags: 0
+        format: densev1
+  wfm4:
+    timestamp: 1696458052
+    time_fsec: 0
+    id: 4
+    pinned: false
+    label: ""
+    channels:
+      ch0s0:
+        index: 0
+        stream: 0
+        timescale: 25000000
+        trigphase: 0
+        flags: 0
+        format: densev1
+  wfm5:
+    timestamp: 1696458053
+    time_fsec: 0
+    id: 5
+    pinned: false
+    label: ""
+    channels:
+      ch0s0:
+        index: 0
+        stream: 0
+        timescale: 25000000
+        trigphase: 0
+        flags: 0
+        format: densev1
+  wfm6:
+    timestamp: 1696458054
+    time_fsec: 0
+    id: 6
+    pinned: false
+    label: ""
+    channels:
+      ch0s0:
+        index: 0
+        stream: 0
+        timescale: 25000000
+        trigphase: 0
+        flags: 0
+        format: densev1
+  wfm7:
+    timestamp: 1696458066
+    time_fsec: 0
+    id: 7
+    pinned: false
+    label: ""
+    channels:
+      ch0s0:
+        index: 0
+        stream: 0
+        timescale: 25000000
+        trigphase: 0
+        flags: 0
+        format: densev1

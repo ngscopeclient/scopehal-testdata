@@ -50,6 +50,14 @@ Source: Teledyne LeCroy WaveRunner 8404M-MS
 * SWD
 * SWD MEM-AP
 
+### UART.scopesession
+
+Source: Siglent SDS2000X Plus
+
+* Clock Recovery (UART)
+* UART
+* Threshold
+
 ## Memory
 
 ### DDR1.scopesession

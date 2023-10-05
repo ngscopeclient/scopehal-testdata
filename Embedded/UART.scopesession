@@ -1,0 +1,184 @@
+version: 2
+metadata:
+  appver: ngscopeclient 0.1-2c2634b
+  appdate: Oct  3 2023 11:19:29
+  created: 2023-10-04 03:24:54 PM
+instruments:
+  inst1:
+    id: 1
+    nick: sds2000x_plus
+    name: SDS2204X Plus
+    vendor: Siglent Technologies
+    serial: SDS2PEEC7R1015
+    transport: lan
+    args: 169.254.149.18:5025
+    driver: siglent
+    rate: 40000000
+    depth: 2000000
+    interleave: true
+    triggerpos: 25000000000000
+    channels:
+      ch0:
+        id: 2
+        index: 0
+        color: "#ffff00"
+        nick: C1
+        name: C1
+        type: analog
+        adcmode: 0
+        invert: false
+        enabled: 1
+        xunit: fs
+        attenuation: 1
+        bwlimit: 0
+        yunit: V
+        vrange: 15.5200005
+        offset: -0.0647
+        coupling: dc_1M
+      ch1:
+        id: 3
+        index: 1
+        color: "#ff6abc"
+        nick: C2
+        name: C2
+        type: analog
+        adcmode: 0
+        invert: false
+        enabled: 0
+        xunit: fs
+        attenuation: 1
+        bwlimit: 0
+        yunit: V
+        vrange: 8
+        offset: 0
+        coupling: dc_1M
+      ch2:
+        id: 4
+        index: 2
+        color: "#00ffff"
+        nick: C3
+        name: C3
+        type: analog
+        adcmode: 0
+        invert: false
+        enabled: 0
+        xunit: fs
+        attenuation: 1
+        bwlimit: 0
+        yunit: V
+        vrange: 8
+        offset: 0
+        coupling: dc_1M
+      ch3:
+        id: 5
+        index: 3
+        color: "#00c100"
+        nick: C4
+        name: C4
+        type: analog
+        adcmode: 0
+        invert: false
+        enabled: 0
+        xunit: fs
+        attenuation: 1
+        bwlimit: 0
+        yunit: V
+        vrange: 8
+        offset: 0
+        coupling: dc_1M
+      ch4:
+        id: 6
+        index: 4
+        color: ""
+        nick: EX
+        name: EX
+        type: trigger
+        enabled: 0
+        xunit: fs
+    trigger:
+      inputs:
+        din: 2/0
+      parameters:
+        Edge: Rising
+        Level: 1.95 V
+      id: 7
+      type: Edge
+    triggerdeskew: 0
+    type: oscilloscope
+triggergroups:
+  group0:
+    primary: 1
+    secondaries: ~
+decodes:
+  filter8:
+    inputs:
+      din: 2/0
+    parameters:
+      Baud rate: 115.2 kbps
+      Threshold: 2 V
+    id: 8
+    protocol: Clock Recovery (UART)
+    color: "#a6cee3"
+    nick: ClockRecoveryUART_1
+    name: ClockRecoveryUART_1
+  filter9:
+    inputs:
+      din: 2/0
+    parameters:
+      Hysteresis: 0 mV
+      Threshold: 2 V
+    id: 9
+    protocol: Threshold
+    color: "#1f78b4"
+    nick: Threshold_1
+    name: Threshold_1
+  filter10:
+    inputs:
+      din: 9/0
+    parameters:
+      Baud rate: 115.2 kbps
+    id: 10
+    protocol: UART
+    color: "#b2df8a"
+    nick: UART_1
+    name: UART_1
+ui_config:
+  areas:
+    area12:
+      id: 12
+      streams:
+        stream0:
+          persistence: false
+          channel: 2
+          stream: 0
+          colorRamp: eye-gradient-viridis
+        stream1:
+          persistence: false
+          channel: 8
+          stream: 0
+          colorRamp: eye-gradient-viridis
+        stream2:
+          persistence: false
+          channel: 9
+          stream: 0
+          colorRamp: eye-gradient-viridis
+        stream3:
+          persistence: false
+          channel: 10
+          stream: 0
+          colorRamp: eye-gradient-viridis
+  groups:
+    group11:
+      timebaseResolution: fs
+      pixelsPerXUnit: 4.01861294e-10
+      xAxisOffset: 24858066986496
+      name: Waveform Group 1
+      cursorConfig: none
+      xcursor0: 0
+      xcursor1: 0
+      areas:
+        area12:
+          id: 12
+  markers: ~
+  dialogs:
+    history: true
